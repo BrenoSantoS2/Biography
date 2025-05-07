@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Estrutura de Componentes
+
+O projeto utiliza a pasta `components/` para organizar os componentes reutilizáveis, cada um com seu próprio arquivo `.tsx` e `.module.css`.
+
+## Como adicionar um novo componente
+
+1. Crie um arquivo `NomeDoComponente.tsx` em `components/`.
+2. Crie o arquivo de estilos correspondente `NomeDoComponente.module.css`.
+3. Importe e utilize o componente em `app/page.tsx` ou em outros componentes.

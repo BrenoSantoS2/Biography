@@ -1,0 +1,135 @@
+.heroSection {
+  position: relative;
+  display: flex;
+  align-items: flex-end; /* Alinhado com o Figma (justifyContent: flex-end no Frame 15) */
+  padding: 54px 57px; /* Reduzido */
+  min-height: 540px; /* Reduzido */
+  width: 100%;
+  overflow: hidden; /* Para caso a imagem de fundo seja maior */
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45); /* Cor de overlay do Figma fill_LIC95J */
+  /* Idealmente, aqui viria a imagem de fundo:
+  background-image: url('/path/to/your/hero-background.jpg');
+  background-size: cover;
+  background-position: center; 
+  */
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between; /* Para separar texto e imagem */
+  align-items: flex-end; /* Para alinhar com a base */
+  width: 100%;
+  gap: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Reduzido de 32px */
+  max-width: 60%; /* Para não ocupar a largura toda e deixar espaço para a imagem */
+}
+
+.title {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_1SW759 */
+  font-weight: 700;
+  font-size: 36px; /* Reduzido */
+  line-height: 1.416;
+  text-transform: uppercase;
+  color: #FFFFFF; /* Conforme Figma: fill_CQC7BR */
+  /* A stroke do Figma (stroke_EVHYNG) é preta, o que pode ser difícil de replicar fielmente com CSS text-stroke em todos os navegadores.
+     Pode ser necessário um truque com text-shadow ou uma imagem para o texto se o efeito for crucial.
+     Exemplo simples com text-shadow:
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  */
+  margin: 0;
+}
+
+.ctaButton {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_6DMO9W */
+  font-weight: 700;
+  font-size: 18px; /* Reduzido */
+  line-height: 1.21;
+  text-transform: capitalize; /* Figma indica 'TITLE' case, 'capitalize' é o mais próximo */
+  color: #000000; /* Conforme Figma: fill_ZR8FXQ */
+  background-color: #96F376; /* Conforme Figma: fill_D35I6V */
+  padding: 6px 48px; /* Reduzido */
+  border: none;
+  border-radius: 8px; /* Conforme Figma: borderRadius: 8px */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start; /* Para o botão não esticar */
+}
+
+.ctaButton:hover {
+  background-color: #7fcc62;
+}
+
+.imageContainer {
+  /* O posicionamento da imagem no Figma é complexo ('imagem_2025-05-06_104902446-removebg-preview 1' id '22:594')
+     com position absolute x: 1062, y: -140 em relação ao seu container 'image' (5:626).
+     Por simplicidade, vamos centralizá-la ou alinhá-la à direita por agora.
+     Ajustes finos podem ser feitos com posicionamento absoluto se necessário.
+  */
+  display: flex;
+  align-items: flex-end; /* Para a imagem tocar a base da seção hero */
+}
+
+.profileImage {
+  object-fit: cover; /* Ou 'contain', dependendo do efeito desejado */
+  /* Adicionar border-radius se a imagem não for com fundo transparente e precisar de cantos arredondados */
+  /* O design do Figma sugere uma imagem com fundo removido. */
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 1024px) {
+  .heroSection {
+    padding: 36px 24px; /* Reduzido */
+    min-height: auto; /* Altura automática em telas menores */
+  }
+  .heroContent {
+    flex-direction: column;
+    align-items: center; /* Centralizar conteúdo na vertical */
+    text-align: center;
+  }
+  .textContainer {
+    max-width: 100%;
+    align-items: center;
+  }
+  .title {
+    font-size: 28px; /* Reduzido */
+  }
+  .ctaButton {
+    font-size: 16px; /* Reduzido */
+    padding: 8px 32px; /* Reduzido */
+  }
+  .imageContainer {
+    margin-top: 24px; /* Reduzido */
+  }
+  .profileImage {
+    width: 200px; /* Reduzido */
+    height: auto; /* Manter proporção */
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 22px; /* Reduzido */
+  }
+  .ctaButton {
+    font-size: 14px; /* Reduzido */
+  }
+   .profileImage {
+    width: 160px; /* Reduzido */
+  }
+} 

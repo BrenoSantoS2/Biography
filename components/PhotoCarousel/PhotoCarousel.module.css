@@ -1,0 +1,83 @@
+.photoCarouselSection {
+  padding: 48px; /* Reduzido */
+  background-color: #434343; /* Conforme Figma: fill_TWEVGF */
+  width: 100%;
+}
+
+.sectionTitle {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_NAKC31 */
+  font-weight: 600;
+  font-size: 36px; /* Reduzido */
+  line-height: 1.21;
+  color: #FFFFFF; /* Conforme Figma: fill_CQC7BR */
+  text-align: center;
+  margin-bottom: 24px; /* Reduzido de 32px */
+}
+
+.carouselContainer {
+  display: flex;
+  overflow-x: auto;
+  gap: 24px; /* Reduzido de 32px */
+  padding-bottom: 16px; /* Espaço para a barra de rolagem */
+}
+
+/* Estilizando a barra de rolagem */
+.carouselContainer::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carouselContainer::-webkit-scrollbar-track {
+  background: #5e5e5e; /* Um pouco mais escuro que o fundo */
+  border-radius: 10px;
+}
+
+.carouselContainer::-webkit-scrollbar-thumb {
+  background: #c0c0c0; /* Cor clara para o thumb */
+  border-radius: 10px;
+}
+
+.carouselContainer::-webkit-scrollbar-thumb:hover {
+  background: #e0e0e0;
+}
+
+.carouselItem {
+  width: 470px; /* Reduzido */
+  height: 300px; /* Reduzido */
+  border-radius: 8px; /* Conforme Figma: borderRadius: 8px */
+  overflow: hidden;
+  background-color: #EAEAEA; /* Conforme Figma: fill_RE8O0T */
+  /* Os efeitos de sombra (effect_S9WHRC, effect_9CLFBW) variam. 
+     Adicionando um genérico, pode ser customizado por item se necessário. */
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0; /* Para evitar que os itens encolham */
+}
+
+.carouselImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .photoCarouselSection {
+    padding: 24px;
+  }
+  .sectionTitle {
+    font-size: 28px; /* Reduzido */
+  }
+  .carouselItem {
+    width: 70vw; /* Ajustado */
+    height: auto;
+    aspect-ratio: 470 / 300; /* Mantém proporção original reduzida */
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 22px; /* Reduzido */
+  }
+   .carouselItem {
+    width: 85vw;
+  }
+} 

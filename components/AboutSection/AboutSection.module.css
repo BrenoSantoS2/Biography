@@ -1,0 +1,157 @@
+.aboutSection {
+  padding: 24px 48px; /* Reduzido */
+  width: 100%;
+  background-color: #FFFFFF; /* Assumindo fundo branco */
+}
+
+.divider {
+  height: 1px; /* Altura do divisor, ajuste conforme necessário */
+  background-color: #9F9999; /* Cor do divisor (fill_51KADS) */
+  margin-bottom: 24px; /* Reduzido de 32px */
+  width: 100%; /* Ocupa toda a largura */
+}
+
+.mainTitle {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_R369SU */
+  font-weight: 600;
+  font-size: 48px; /* Reduzido */
+  line-height: 1.21;
+  color: #02330B; /* Conforme Figma: fill_Q2PDO6 */
+  text-align: center;
+  margin-bottom: 48px; /* Reduzido */
+}
+
+.topicsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 108px; /* Reduzido */
+}
+
+.topicItem {
+  display: flex;
+  align-items: center;
+  gap: 108px; /* Reduzido */
+}
+
+.topicItem.textLeft .topicTextContainer {
+  order: 1;
+  flex-basis: 60%; /* Ajuste a proporção conforme necessário */
+}
+
+.topicItem.textLeft .topicImageContainer {
+  order: 2;
+  flex-basis: 40%;
+}
+
+.topicItem.textRight .topicTextContainer {
+  order: 2;
+  flex-basis: 60%;
+  text-align: right; /* Alinhamento para quando o texto está à direita */
+}
+
+.topicItem.textRight .topicImageContainer {
+  order: 1;
+  flex-basis: 40%;
+}
+
+.topicTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Reduzido de 32px */
+}
+
+.topicTitle {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_AP4EL9 */
+  font-weight: 600;
+  font-size: 36px; /* Reduzido */
+  line-height: 1.21;
+  color: #02330B; /* Conforme Figma: fill_Q2PDO6 para "Um pouco sobre mim" e fill_ZR8FXQ (#000000) para os outros. Usando a cor mais escura para consistência ou podemos variar. */
+  margin: 0;
+}
+
+.topicText {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_XG3VFR */
+  font-weight: 600; /* No Figma está 600, mas visualmente parece mais leve. Ajustar se necessário. */
+  font-size: 18px; /* Reduzido */
+  line-height: 1.21;
+  color: #535353; /* Conforme Figma: fill_E36S6M */
+  margin: 0;
+}
+
+.topicImageContainer {
+  width: 360px; /* Reduzido */
+  height: 360px; /* Reduzido */
+  border-radius: 16px; /* Conforme Figma: borderRadius: 16px */
+  overflow: hidden;
+  background-color: #D3D3D3; /* Cor de fundo fill_KUQX5Y */
+}
+
+.topicImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .topicItem {
+    gap: 48px; /* Reduzido */
+  }
+  .topicItem.textLeft .topicTextContainer,
+  .topicItem.textLeft .topicImageContainer,
+  .topicItem.textRight .topicTextContainer,
+  .topicItem.textRight .topicImageContainer {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .aboutSection {
+    padding: 18px 24px; /* Reduzido */
+  }
+  .mainTitle {
+    font-size: 36px; /* Reduzido */
+    margin-bottom: 36px; /* Reduzido */
+  }
+  .topicsContainer {
+    gap: 72px; /* Reduzido */
+  }
+  .topicItem {
+    flex-direction: column;
+    gap: 24px; /* Reduzido */
+    text-align: center !important; /* Forçar centralização */
+  }
+  .topicItem.textLeft .topicTextContainer,
+  .topicItem.textRight .topicTextContainer {
+    order: 2;
+    text-align: center !important;
+  }
+  .topicItem.textLeft .topicImageContainer,
+  .topicItem.textRight .topicImageContainer {
+    order: 1;
+    width: 100%;
+    max-width: 300px; /* Reduzido */
+    height: auto; /* Manter proporção */
+  }
+  .topicImageContainer{
+    height: auto; /* Para se ajustar à imagem */
+  }
+  .topicTitle {
+    font-size: 28px; /* Reduzido */
+  }
+  .topicText {
+    font-size: 16px; /* Reduzido */
+  }
+}
+
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 30px; /* Reduzido */
+  }
+  .topicTitle {
+    font-size: 24px; /* Reduzido */
+  }
+  .topicText {
+    font-size: 15px; /* Reduzido */
+  }
+} 

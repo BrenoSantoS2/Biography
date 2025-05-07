@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "logo": "My Journey",
+    "nav_about": "About",
+    "nav_professional": "Professional",
+    "nav_academic": "Academic",
+    "donate_button": "Donate"
+  },
+  "Hero": {
+    "greeting": "Nice to meet you!",
+    "name": "My name is Breno Santos",
+    "cta_button": "Support Exchange Program"
+  }
+} 

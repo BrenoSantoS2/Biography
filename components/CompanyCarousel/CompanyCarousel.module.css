@@ -1,0 +1,137 @@
+.carouselSection {
+  padding: 24px 48px; /* Reduzido */
+  background-color: #FFFFFF; /* Cor de fundo, se houver. Figma não especifica, usando branco. */
+  width: 100%;
+}
+
+.sectionTitle {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_KCPAT2 */
+  font-weight: 600;
+  font-size: 28px; /* Reduzido */
+  line-height: 1.21;
+  color: #02330B; /* Conforme Figma: fill_Q2PDO6 */
+  margin-bottom: 24px; /* Reduzido de 32px */
+  text-align: left; /* Figma default */
+}
+
+.carouselContainer {
+  display: flex;
+  overflow-x: auto; /* Para permitir rolagem horizontal */
+  gap: 72px; /* Reduzido de 96px */
+  padding-bottom: 16px; /* Para dar espaço para a barra de rolagem e evitar corte */
+  align-items: flex-start; /* Alinha os itens no topo */
+}
+
+/* Estilizando a barra de rolagem (opcional, mas melhora a aparência) */
+.carouselContainer::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carouselContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.carouselContainer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.carouselContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.carouselItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Conforme Figma: layout_KGV6FS alignItems: center */
+  gap: 6px; /* Reduzido de 8px */
+  min-width: 180px; /* Reduzido de 220px */
+  text-align: center;
+}
+
+.companyName {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_OOBMM0 */
+  font-weight: 600;
+  font-size: 20px; /* Reduzido */
+  line-height: 1.21;
+  color: #0F581D; /* Conforme Figma: fill_MZCLHO */
+  margin: 0;
+}
+
+.logoWrapper {
+  width: 144px; /* Reduzido */
+  height: 108px; /* Reduzido */
+  background-color: #f0f0f0; /* Placeholder background para o logo */
+  border-radius: 12px; /* Conforme Figma: borderRadius: 12px para Frame 7 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Caso o logo seja maior que o wrapper */
+}
+
+.companyLogo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Para garantir que o logo caiba e mantenha proporção */
+}
+
+.description {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_NKZCA7 */
+  font-weight: 600;
+  font-size: 16px; /* Reduzido */
+  line-height: 1.21;
+  color: #859C8B; /* Conforme Figma: fill_VK596H */
+  margin: 0;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+  .carouselSection {
+    padding: 18px 24px; /* Reduzido */
+  }
+  .sectionTitle {
+    font-size: 22px; /* Reduzido */
+  }
+  .carouselContainer {
+    gap: 36px; /* Reduzido */
+  }
+  .carouselItem {
+    min-width: 150px; /* Reduzido */
+  }
+  .companyName {
+    font-size: 18px; /* Reduzido */
+  }
+  .logoWrapper {
+    width: 120px; /* Reduzido */
+    height: 90px; /* Reduzido */
+  }
+  .description {
+    font-size: 14px; /* Reduzido */
+  }
+}
+
+@media (max-width: 480px) {
+  .carouselSection {
+    padding: 12px;
+  }
+  .sectionTitle {
+    font-size: 20px; /* Reduzido */
+  }
+  .carouselContainer {
+    gap: 24px; /* Reduzido */
+  }
+  .carouselItem {
+    min-width: 120px; /* Reduzido */
+  }
+  .companyName {
+    font-size: 16px; /* Reduzido */
+  }
+  .logoWrapper {
+    width: 100px; /* Reduzido */
+    height: 75px; /* Reduzido */
+  }
+  .description {
+    font-size: 12px; /* Reduzido */
+  }
+} 

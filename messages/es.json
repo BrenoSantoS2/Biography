@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "logo": "Mi Trayectoria",
+    "nav_about": "Sobre",
+    "nav_professional": "Profesional",
+    "nav_academic": "Académico",
+    "donate_button": "Donar"
+  },
+  "Hero": {
+    "greeting": "¡Mucho gusto!",
+    "name": "Mi nombre es Breno Santos",
+    "cta_button": "Apoyar Intercambio"
+  }
+} 

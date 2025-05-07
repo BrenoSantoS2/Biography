@@ -1,0 +1,90 @@
+/* Estilos para o componente Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px; /* Aumentando o padding vertical de 8px para 12px */
+  background: linear-gradient(to bottom, rgba(55, 55, 55, 0.9) 0%, rgba(55, 55, 55, 0.95) 40.87%, rgba(55, 55, 55, 1) 87.02%); /* Conforme Figma: fill_KZ6VCE */
+  color: #FFFFFF; /* Cor do texto padrão para o header */
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.15); /* Conforme Figma: effect_VY3OLX */
+  width: 100%;
+  position: fixed; /* Para manter o header fixo no topo */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Para garantir que fique acima de outros conteúdos */
+}
+
+.logoContainer {
+  /* Estilos para o container do logo, se necessário */
+}
+
+.logo {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_EBTWBJ */
+  font-weight: 700;
+  font-size: 24px; /* Reduzido */
+  line-height: 1.21;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* Novo container para agrupar nav e botão de doar */
+.navActionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px; /* Reduzido o gap um pouco */
+}
+
+.nav {
+  /* Estilos para a navegação */
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 24px; /* Reduzido o gap um pouco */
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  /* Estilos para os itens da lista de navegação */
+}
+
+/* Estilo para os botões de navegação (substituindo os links <a>) */
+.navLinkButton {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px; /* Reduzido */
+  line-height: 1.21;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navLinkButton:hover {
+  color: #96F376;
+}
+
+.donateButton {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px; /* Reduzido */
+  line-height: 1.21;
+  color: #000000;
+  background-color: #96F376;
+  padding: 10px 36px; /* Reduzido */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donateButton:hover {
+  background-color: #7fcc62;
+}
+
+/* Adicionar media queries para responsividade posteriormente */ 

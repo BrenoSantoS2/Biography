@@ -1,0 +1,17 @@
+.selector {
+  padding: 5px 8px;
+  font-size: 14px; /* Tamanho um pouco menor que os links de navegação */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* Fundo branco */
+  color: #333; /* Texto escuro */
+  cursor: pointer;
+  margin-left: 10px; /* Espaço à esquerda, se necessário */
+}
+
+/* Estilos adicionais para aparência, se desejar */
+.selector:focus {
+  outline: none;
+  border-color: #96F376;
+  box-shadow: 0 0 0 2px rgba(150, 243, 118, 0.5);
+} 
