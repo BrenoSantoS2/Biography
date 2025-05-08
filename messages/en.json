@@ -4,11 +4,138 @@
     "nav_about": "About",
     "nav_professional": "Professional",
     "nav_academic": "Academic",
-    "donate_button": "Donate"
+    "donate_button": "Support Exchange"
   },
   "Hero": {
     "greeting": "Nice to meet you!",
-    "name": "My name is Breno Santos",
-    "cta_button": "Support Exchange Program"
+    "nameIntroduction": "My name is Breno Santos",
+    "ctaButton": "Support Exchange Program"
+  },
+  "AboutSection": {
+    "mainTitle": "About Me",
+    "topics": {
+      "sobre-mim": {
+        "title": "A Little About Myself",
+        "text": "Since an early age, my curiosity and willingness to learn have driven me to seek new challenges and knowledge. I am passionate about technology and innovation, always looking for creative solutions to complex problems. I believe in the power of collaboration and continuous learning as tools for personal and professional growth.",
+        "imageAlt": "Photo of Breno Santos"
+      },
+      "familia": {
+        "title": "Family and Values",
+        "text": "My family is my main foundation, instilling values such as respect, perseverance, and the importance of education. They inspire me to follow my dreams and never give up in the face of obstacles. These principles guide my actions and decisions in all areas of my life.",
+        "imageAlt": "Image representing family and unity"
+      },
+      "infancia": {
+        "title": "Childhood and Discoveries",
+        "text": "During my childhood, I developed a great interest in exploring the world around me. Reading and studying have always been sources of pleasure, opening doors to new ideas and perspectives. This foundation was crucial in shaping who I am today and in sparking my passion for knowledge.",
+        "imageAlt": "Image representing learning and discoveries in childhood"
+      }
+    }
+  },
+  "CompanyCarousel": {
+    "sectionTitle": "Professional Journey",
+    "companies": {
+      "btg1": {
+        "name": "BTG Pactual (Mentorship)",
+        "description": "Participated in a mentorship program focused on career development and insights into the financial market, with guidance from experienced professionals at BTG Pactual.",
+        "logoAlt": "BTG Pactual Logo"
+      },
+      "mckinsey": {
+        "name": "McKinsey & Company (Training)",
+        "description": "Intensive training in strategic consulting, covering methodologies for solving complex problems, data analysis, and developing impactful presentations.",
+        "logoAlt": "McKinsey & Company Logo"
+      },
+      "btg2": {
+        "name": "BTG Pactual (UX Design Internship)",
+        "description": "Worked in two UX Design internship programs, collaborating on the development of innovative digital solutions for the financial sector and applying user-centered design principles.",
+        "logoAlt": "BTG Pactual Logo"
+      },
+      "bancopan": {
+        "name": "Banco Pan (Internal Audit)",
+        "description": "Internship in the Internal Audit area, where I developed analytical skills and assessed risks and internal controls in a financial institution.",
+        "logoAlt": "Banco Pan Logo"
+      },
+      "bloomberg": {
+        "name": "Bloomberg (Mentorship)",
+        "description": "Six-month mentorship program focused on technology for the financial market, with access to insights on Bloomberg's tools and platforms.",
+        "logoAlt": "Bloomberg Logo"
+      },
+      "salesforce": {
+        "name": "Salesforce (Mentorship)",
+        "description": "Six-month mentorship focused on CRM and Salesforce technologies, exploring the platform's ecosystem and its applications for optimizing business processes.",
+        "logoAlt": "Salesforce Logo"
+      },
+      "foursummit": {
+        "name": "Four Summit (Conference)",
+        "description": "Invited to attend the Four Summit conference, an event focused on innovation, technology, and entrepreneurship, featuring talks by prominent market figures.",
+        "logoAlt": "Four Summit Logo"
+      }
+    }
+  },
+  "PhotoCarousel": {
+    "defaultTitle": "Photo Gallery",
+    "images": {
+      "photo1": { "alt": "Breno's personal photo outdoors" },
+      "photo2": { "alt": "Record of a special moment" },
+      "photo3": { "alt": "Breno participating in an event" },
+      "photo4": { "alt": "Memory of a trip or activity" },
+      "photo5": { "alt": "Another personal photo of Breno" },
+      "sp1": { "alt": "Relaxing moment" },
+      "sp2": { "alt": "Breno in a natural landscape" },
+      "sp3": { "alt": "Record of a personal achievement" },
+      "sp4": { "alt": "Photo with friends or colleagues" }
+    }
+  },
+  "Page": {
+    "myPhotosTitle": "My Photos",
+    "moreMomentsTitle": "More Special Moments"
+  },
+  "AcademicSection": {
+    "mainTitle": "Academic Background",
+    "topics": {
+      "academico-geral": {
+        "title": "Degree in Software Engineering",
+        "text": "Currently pursuing a degree in Software Engineering, focusing on the development of robust and scalable systems, applying best engineering practices and agile methodologies.",
+        "imageAlt": "Symbol or image representing Software Engineering"
+      },
+      "cursos-extras": {
+        "title": "Complementary Courses and Certifications",
+        "text": "I constantly seek to improve my knowledge through online courses, workshops, and certifications in areas such as web and mobile development, cloud computing, and artificial intelligence.",
+        "imageAlt": "Certificates or logos of course platforms"
+      },
+      "conquistas-academicas": {
+        "title": "Academic Projects and Achievements",
+        "text": "Participation in research projects, development of practical applications, and hackathons, where I could apply acquired knowledge and collaborate in teams to solve real-world challenges.",
+        "imageAlt": "Trophy or image of a successful project"
+      }
+    }
+  },
+  "ExchangeProgram": {
+    "sectionTitle": "Exchange Program in Belgium",
+    "locationName": "Thomas More University of Applied Sciences",
+    "locationCountry": "Mechelen - Belgium",
+    "pixTitle": "Support this Dream with PIX",
+    "pixButtonText": "Copy PIX Key",
+    "pixKeyValue": "YOUR-REAL-PIX-KEY-HERE",
+    "alertPixCopied": "PIX Key copied to clipboard!",
+    "alertPixError": "Could not copy PIX key. Please try manually.",
+    "progressTitle": "Fundraising Progress",
+    "progressText": "{{arrecadado}} of {{meta}}",
+    "progressPercentageText": "{{percentage}}% of goal reached!",
+    "costsTableTitle": "Detailed Estimated Costs for the Exchange Program",
+    "costsTable": {
+      "header": {
+        "item": "Item",
+        "costBRL": "Estimated Cost (BRL)",
+        "costEUR": "Estimated Cost (EUR)"
+      },
+      "items": {
+        "passagem": { "item": "Round-trip Airfare" },
+        "seguro": { "item": "Mandatory Travel Insurance (5 months)" },
+        "acomodacao": { "item": "Accommodation and Utilities (5 months)" },
+        "alimentacao": { "item": "Food and Basic Living Costs (5 months)" },
+        "taxas": { "item": "University Fees and Visa Application" },
+        "total": { "item": "ESTIMATED TOTAL" }
+      }
+    }
   }
 } 

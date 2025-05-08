@@ -1,5 +1,5 @@
 .photoCarouselSection {
-  padding: 48px; /* Reduzido */
+  padding: 48px 0; /* Padding vertical; horizontal é do section-content-container */
   background-color: #434343; /* Conforme Figma: fill_TWEVGF */
   width: 100%;
 }
@@ -19,6 +19,10 @@
   overflow-x: auto;
   gap: 24px; /* Reduzido de 32px */
   padding-bottom: 16px; /* Espaço para a barra de rolagem */
+  /* Efeito de fade nas bordas laterais */
+  -webkit-mask-image: linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent);
+  mask-image: linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent);
+  /* Os 20px acima são a largura da área de fade. Ajuste conforme necessário. */
 }
 
 /* Estilizando a barra de rolagem */
@@ -61,7 +65,7 @@
 /* Media Queries */
 @media (max-width: 768px) {
   .photoCarouselSection {
-    padding: 24px;
+    /* padding: 24px; // Padding horizontal removido, section-content-container faz isso */
   }
   .sectionTitle {
     font-size: 28px; /* Reduzido */

@@ -1,17 +1,56 @@
-.selector {
-  padding: 5px 8px;
-  font-size: 14px; /* Tamanho um pouco menor que os links de navegação */
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #fff; /* Fundo branco */
-  color: #333; /* Texto escuro */
-  cursor: pointer;
-  margin-left: 10px; /* Espaço à esquerda, se necessário */
+.languageSelectorWrapper {
+  position: relative;
+  display: inline-block; /* Para alinhar com outros itens do header se necessário */
 }
 
-/* Estilos adicionais para aparência, se desejar */
+.selector {
+  padding: 8px 16px; /* Aumentar um pouco o padding para conforto visual */
+  font-size: 1rem; /* Ajustar ao tamanho da fonte base */
+  font-family: inherit; /* Usar a fonte do restante do corpo */
+  border: 1px solid transparent; /* Bordas transparentes para discrição inicial */
+  border-radius: 8px; /* Bordas mais arredondadas */
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo sutilmente transparente ou cor sólida clara */
+  color: inherit; /* Herdar a cor do texto do pai (ex: header) */
+  cursor: pointer;
+  margin-left: 15px;
+  appearance: none; /* Remove a aparência padrão do select */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  min-width: 120px; /* Largura mínima para acomodar bandeiras e texto */
+  width: auto;
+  text-align: left; /* Alinha o texto e bandeira à esquerda */
+}
+
+/* Adiciona um ícone de "dropdown" customizado se a aparência padrão for removida */
+/* Isso pode ser feito com um pseudo-elemento ou um SVG background */
+/* Exemplo simples com pseudo-elemento (pode precisar de ajustes) */
+.languageSelectorWrapper::after {
+  content: '▼'; /* Ou um SVG como background-image no .selector */
+  font-size: 0.7rem;
+  color: inherit; /* Herda a cor */
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Para não interferir no clique do select */
+}
+
+.selector:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
 .selector:focus {
   outline: none;
-  border-color: #96F376;
-  box-shadow: 0 0 0 2px rgba(150, 243, 118, 0.5);
+  border-color: #96F376; /* Mantém o destaque do foco original */
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 0 2px rgba(150, 243, 118, 0.5); /* Mantém o destaque do foco original */
+}
+
+/* Estilo para os options - a estilização de options é limitada */
+.selector option {
+  background-color: #2c2c2c; /* Cor de fundo para o dropdown aberto (modo escuro de exemplo) */
+  color: #f0f0f0; /* Cor do texto para o dropdown aberto */
+  padding: 8px;
 } 

@@ -1,46 +1,55 @@
+"use client";
 import Image from 'next/image';
 import styles from './PhotoCarousel.module.css';
+import { useTranslation } from 'react-i18next';
 
-interface CarouselImage {
+interface CarouselImageInput {
   id: string;
   src: string;
-  alt: string;
+  // alt: string; // Será traduzido
 }
 
-// Usaremos algumas imagens da pasta Pessoal como placeholders
-const carouselImages: CarouselImage[] = [
-  { id: 'photo1', src: '/Fotos/Pessoal/20250411_061325.jpg', alt: 'Foto Pessoal 1' },
-  { id: 'photo2', src: '/Fotos/Pessoal/20250412_080644.jpg', alt: 'Foto Pessoal 2' },
-  { id: 'photo3', src: '/Fotos/Pessoal/20250416_115942.jpg', alt: 'Foto Pessoal 3' },
-  { id: 'photo4', src: '/Fotos/Pessoal/20250412_080636.jpg', alt: 'Foto Pessoal 4' },
-  { id: 'photo5', src: '/Fotos/Pessoal/20250416_120857.jpg', alt: 'Foto Pessoal 5' },
+// Os textos fixos foram removidos daqui, serão obtidos via t()
+const defaultCarouselImageIds: CarouselImageInput[] = [
+  { id: 'photo1', src: '/Fotos/Pessoal/20250411_061325.jpg' },
+  { id: 'photo2', src: '/Fotos/Pessoal/20250412_080644.jpg' },
+  { id: 'photo3', src: '/Fotos/Pessoal/20250416_115942.jpg' },
+  { id: 'photo4', src: '/Fotos/Pessoal/20250412_080636.jpg' },
+  { id: 'photo5', src: '/Fotos/Pessoal/20250416_120857.jpg' },
 ];
 
 interface PhotoCarouselProps {
-  title?: string; // Título opcional para reutilização
-  images?: CarouselImage[]; // Imagens opcionais para reutilização
+  titleKey?: string; // Chave de tradução para o título
+  images?: CarouselImageInput[];
 }
 
-const PhotoCarousel: React.FC<PhotoCarouselProps> = ({ 
-  title = "Photos", 
-  images = carouselImages 
+const PhotoCarousel: React.FC<PhotoCarouselProps> = ({
+  titleKey, // Recebe a CHAVE de tradução para o título
+  images = defaultCarouselImageIds 
 }) => {
+  const { t } = useTranslation(); // Hook de tradução
+
+  // Se titleKey não for fornecido, usa um default. Se fornecido, traduz.
+  const carouselTitle = titleKey ? t(titleKey) : t('PhotoCarousel.defaultTitle');
+
   return (
     <section className={styles.photoCarouselSection}>
-      <h2 className={styles.sectionTitle}>{title}</h2>
-      <div className={styles.carouselContainer}>
-        {images.map((image) => (
-          <div key={image.id} className={styles.carouselItem}>
-            <Image
-              src={image.src}
-              alt={image.alt}
-              width={470}
-              height={300}
-              className={styles.carouselImage}
-              objectFit="cover"
-            />
-          </div>
-        ))}
+      <div className="section-content-container">
+        <h2 className={styles.sectionTitle}>{carouselTitle}</h2>
+        <div className={styles.carouselContainer}>
+          {images.map((image) => (
+            <div key={image.id} className={styles.carouselItem}>
+              <Image
+                src={image.src}
+                alt={t(`PhotoCarousel.images.${image.id}.alt`)}
+                width={470}
+                height={300}
+                className={styles.carouselImage}
+                objectFit="cover"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

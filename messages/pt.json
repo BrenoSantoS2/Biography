@@ -4,11 +4,173 @@
     "nav_about": "Sobre",
     "nav_professional": "Profissional",
     "nav_academic": "Acadêmico",
-    "donate_button": "Doar"
+    "donate_button": "Apoiar Intercâmbio"
   },
   "Hero": {
     "greeting": "Muito prazer!",
-    "name": "Meu nome é Breno Santos",
-    "cta_button": "Apoiar Intercâmbio"
+    "nameIntroduction": "Meu nome é Breno Santos",
+    "ctaButton": "Apoiar Intercâmbio"
+  },
+  "AboutSection": {
+    "mainTitle": "Sobre Mim",
+    "topics": {
+      "sobre-mim": {
+        "title": "Um Pouco Sobre Mim",
+        "text": "Desde cedo, minha curiosidade e vontade de aprender me impulsionaram a buscar novos desafios e conhecimentos. Sou apaixonado por tecnologia e inovação, sempre em busca de soluções criativas para problemas complexos. Acredito no poder da colaboração e no aprendizado contínuo como ferramentas para o crescimento pessoal e profissional.",
+        "imageAlt": "Foto de Breno Santos"
+      },
+      "familia": {
+        "title": "Família e Valores",
+        "text": "Minha família é meu principal alicerce, transmitindo valores como respeito, perseverança e a importância da educação. Eles me inspiram a seguir meus sonhos e a nunca desistir diante dos obstáculos. Esses princípios guiam minhas ações e decisões em todas as áreas da minha vida.",
+        "imageAlt": "Imagem representando família e união"
+      },
+      "infancia": {
+        "title": "Infância e Descobertas",
+        "text": "Durante minha infância, desenvolvi um grande interesse por explorar o mundo ao meu redor. A leitura e os estudos sempre foram fontes de prazer, abrindo portas para novas ideias e perspectivas. Essa base foi fundamental para moldar quem sou hoje e para despertar minha paixão pelo conhecimento.",
+        "imageAlt": "Imagem representando aprendizado e descobertas na infância"
+      }
+    }
+  },
+  "CompanyCarousel": {
+    "sectionTitle": "Alguns lugares onde já passei",
+    "companies": {
+      "btg1": {
+        "name": "BTG Pactual",
+        "description": "Mentoria de 6 meses",
+        "logoAlt": "Logo BTG Pactual"
+      },
+      "mckinsey": {
+        "name": "McKinsey & Company",
+        "description": "Treinamento de gestão",
+        "logoAlt": "Logo McKinsey & Company"
+      },
+      "btg2": {
+        "name": "BTG Pactual",
+        "description": "2 estágios de férias em UX Design",
+        "logoAlt": "Logo BTG Pactual"
+      },
+      "bancopan": {
+        "name": "Banco Pan",
+        "description": "Estágio Regular na área de Auditoria Interna",
+        "logoAlt": "Logo Banco Pan"
+      },
+      "bloomberg": {
+        "name": "Bloomberg",
+        "description": "Mentoria de 6 meses",
+        "logoAlt": "Logo Bloomberg"
+      },
+      "salesforce": {
+        "name": "Salesforce",
+        "description": "Mentoria de seis meses ",
+        "logoAlt": "Logo Salesforce"
+      },
+      "foursummit": {
+        "name": "Four Summit",
+        "description": "Convidado para a conferência Four Summit",
+        "logoAlt": "Logo Four Summit"
+      },
+      "ismart": {
+        "name": "Ismart",
+        "description": "Bolsista e aluno destaque",
+        "logoAlt": "Logo Ismart"
+      },
+      "fundaçãoEstudar": {
+        "name": "Fundação Estudar",
+        "description": "2x Convidado para a conferências (Inovação/Financeiro)",
+        "logoAlt": "Logo Fundação Estudar"
+      },
+      "amazon": {
+        "name": "Amazon",
+        "description": "Convidado para SpeedMentoring",
+        "logoAlt": "Logo Amazon"
+      },
+      "skyone": {
+        "name": "Skyone",
+        "description": "Mentoria de 6 meses",
+        "logoAlt": "Logo Skyone"
+      },
+      "lala": {
+        "name": "Latam Leadearship Academy",
+        "description": "Considerado um dos futuro lideres da America Latina",
+        "logoAlt": "Logo Lala"
+      },
+      "inteli": {
+        "name": "Inteli",
+        "description": "Bolsista e aluno destaque",
+        "logoAlt": "Logo Inteli"
+      },
+      "gamelab": {
+        "name": "Inteli GameLab",
+        "description": "Diretor de recursos humanos",
+        "logoAlt": "Logo GameLab"
+      }
+    }
+  },
+  "PhotoCarousel": {
+    "defaultTitle": "Galeria de Fotos",
+    "images": {
+      "photo1": { "alt": "Foto pessoal de Breno em ambiente externo" },
+      "photo2": { "alt": "Registro de um momento especial" },
+      "photo3": { "alt": "Breno participando de um evento" },
+      "photo4": { "alt": "Lembrança de uma viagem ou atividade" },
+      "photo5": { "alt": "Outra foto pessoal de Breno" },
+      "sp1": { "alt": "Momento de descontração" },
+      "sp2": { "alt": "Breno em uma paisagem natural" },
+      "sp3": { "alt": "Registro de uma conquista pessoal" },
+      "sp4": { "alt": "Foto com amigos ou colegas" }
+    }
+  },
+  "Page": {
+    "myPhotosTitle": "Minhas Fotos",
+    "moreMomentsTitle": "Mais Momentos Especiais"
+  },
+  "AcademicSection": {
+    "mainTitle": "Formação Acadêmica",
+    "topics": {
+      "academico-geral": {
+        "title": "Graduação em Engenharia de Software",
+        "text": "Atualmente cursando Engenharia de Software, com foco em desenvolvimento de sistemas robustos e escaláveis, aplicando as melhores práticas de engenharia e metodologias ágeis.",
+        "imageAlt": "Símbolo ou imagem representando Engenharia de Software"
+      },
+      "cursos-extras": {
+        "title": "Cursos Complementares e Certificações",
+        "text": "Busco constantemente aprimorar meus conhecimentos através de cursos online, workshops e certificações em áreas como desenvolvimento web, mobile, cloud computing e inteligência artificial.",
+        "imageAlt": "Certificados ou logos de plataformas de cursos"
+      },
+      "conquistas-academicas": {
+        "title": "Projetos e Conquistas Acadêmicas",
+        "text": "Participação em projetos de pesquisa, desenvolvimento de aplicações práticas e hackathons, onde pude aplicar o conhecimento adquirido e colaborar em equipe para solucionar desafios reais.",
+        "imageAlt": "Troféu ou imagem de um projeto bem-sucedido"
+      }
+    }
+  },
+  "ExchangeProgram": {
+    "sectionTitle": "Intercâmbio na Bélgica",
+    "locationName": "Thomas More University of Applied Sciences",
+    "locationCountry": "Mechelen - Bélgica",
+    "pixTitle": "Apoie este Sonho com PIX",
+    "pixButtonText": "Copiar Chave PIX",
+    "pixKeyValue": "SUA-CHAVE-PIX-REAL-AQUI",
+    "alertPixCopied": "Chave PIX copiada para a área de transferência!",
+    "alertPixError": "Não foi possível copiar a chave PIX. Tente manualmente.",
+    "progressTitle": "Progresso da Arrecadação",
+    "progressText": "{{arrecadado}} de {{meta}}",
+    "progressPercentageText": "{{percentage}}% da meta alcançado!",
+    "costsTableTitle": "Detalhamento dos Custos Estimados para o Intercâmbio",
+    "costsTable": {
+      "header": {
+        "item": "Item",
+        "costBRL": "Custo Estimado (BRL)",
+        "costEUR": "Custo Estimado (EUR)"
+      },
+      "items": {
+        "passagem": { "item": "Passagens Aéreas (Ida e Volta)" },
+        "seguro": { "item": "Seguro Viagem Obrigatório (5 meses)" },
+        "acomodacao": { "item": "Acomodação e Contas (5 meses)" },
+        "alimentacao": { "item": "Alimentação e Custos Básicos (5 meses)" },
+        "taxas": { "item": "Taxas Universitárias e Aplicação de Visto" },
+        "total": { "item": "TOTAL ESTIMADO" }
+      }
+    }
   }
 } 

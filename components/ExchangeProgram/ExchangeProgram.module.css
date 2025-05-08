@@ -8,10 +8,11 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 36px 48px;
+  padding: 0;
   min-height: 470px;
   color: #FFFFFF;
   overflow: hidden;
+  width: 100%;
 }
 
 .exchangeHeroBackground {
@@ -20,22 +21,36 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.35);
-  background-size: cover;
-  background-position: center;
   z-index: 1;
+  /* Se ainda quiser a camada escura por cima da imagem: */
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.heroImage {
+  object-fit: cover;       /* Preenche sem deformar */
+  object-position: center; /* Centraliza o corte */
+  z-index: -1;             /* Opcional: empurra a imagem para trás se quiser conteúdo sobre ela */
+}
+
+
+.fullHeight {
+  flex-grow: 1;
+  display: flex; 
+  flex-direction: column; 
+  padding: 36px 48px;
+  box-sizing: border-box; 
+  position: relative;
+  z-index: 2;
 }
 
 .exchangeHeroContent {
-  position: relative;
-  z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-  flex-grow: 1;
+  justify-content: space-between; 
+  align-items: stretch; 
+  flex-grow: 1; 
   width: 100%;
-  gap: 8px;
+  gap: 0;
 }
 
 .exchangeTitle {
@@ -45,8 +60,8 @@
   line-height: 1.21;
   text-transform: uppercase;
   margin: 0;
-  text-align: center;
-  align-self: center;
+  text-align: center; 
+  align-self: center; 
 }
 
 .exchangeLocation {
@@ -55,14 +70,13 @@
   font-size: 36px;
   line-height: 1.3;
   margin: 0;
-  text-align: left;
-  align-self: flex-start;
+  text-align: left; 
+  align-self: flex-start; 
 }
 
 /* Área de Conteúdo (Arrecadação e Custos) */
 .contentArea {
-  padding: 24px 48px; /* Reduzido */
-  background-color: #f0f0f0; /* Cor de fundo para esta área, ajuste se necessário */
+  padding: 64px 48px; /* Reduzido */
 }
 
 .fundraisingContainer {
@@ -114,7 +128,7 @@
 .progressBarContainer {
   width: 100%;
   max-width: 400px; /* Reduzido */
-  background-color: #A9A9A9; /* Cor da Barra de Progresso (fill_3NFJXG) */
+  background-color: #5e5c5c; /* Cor da Barra de Progresso (fill_3NFJXG) */
   border-radius: 9999px; /* Conforme Figma */
   padding: 4px; /* Espaçamento interno para a barra */
   height: 32px; /* Reduzido */
@@ -157,7 +171,7 @@
   font-weight: 600;
   font-size: 40px;
   line-height: 1.21;
-  color: #000000; /* Cor do Figma (fill_ZR8FXQ) */
+  color: #02330B; /* Cor do Figma (fill_ZR8FXQ) */
   margin: 0 0 32px 0;
   padding-left: 64px; /* Alinhado com o padding da contentArea */
 }

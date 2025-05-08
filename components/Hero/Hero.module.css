@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   align-items: flex-end; /* Alinhado com o Figma (justifyContent: flex-end no Frame 15) */
-  padding: 54px 57px; /* Reduzido */
+  padding: 0 0; /* Padding vertical; horizontal é tratado pelo section-content-container */
   min-height: 540px; /* Reduzido */
   width: 100%;
   overflow: hidden; /* Para caso a imagem de fundo seja maior */
@@ -14,18 +14,29 @@
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 1; /* Para garantir que fique atrás do overlay e conteúdo */
+}
+
+/* Nova classe para a imagem de fundo em si */
+.heroBackgroundImage {
+  /* object-fit é definido no componente Image, layout="fill" cuida do tamanho */
+  /* Você pode adicionar opacity aqui se desejar, e.g., opacity: 0.8; */
+}
+
+/* Novo: Overlay separado */
+.heroBackgroundOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.45); /* Cor de overlay do Figma fill_LIC95J */
-  /* Idealmente, aqui viria a imagem de fundo:
-  background-image: url('/path/to/your/hero-background.jpg');
-  background-size: cover;
-  background-position: center; 
-  */
-  z-index: 1;
+  z-index: 2; /* Overlay fica acima da imagem de fundo */
 }
 
 .heroContent {
   position: relative;
-  z-index: 2;
+  z-index: 3; /* Conteúdo fica acima do overlay */
   display: flex;
   justify-content: space-between; /* Para separar texto e imagem */
   align-items: flex-end; /* Para alinhar com a base */
@@ -36,6 +47,7 @@
 .textContainer {
   display: flex;
   flex-direction: column;
+  padding: 54px 0;
   gap: 24px; /* Reduzido de 32px */
   max-width: 60%; /* Para não ocupar a largura toda e deixar espaço para a imagem */
 }
@@ -94,7 +106,7 @@
 /* Media Queries para Responsividade */
 @media (max-width: 1024px) {
   .heroSection {
-    padding: 36px 24px; /* Reduzido */
+    padding: 36px 0; /* Padding vertical */
     min-height: auto; /* Altura automática em telas menores */
   }
   .heroContent {
@@ -116,10 +128,11 @@
   .imageContainer {
     margin-top: 24px; /* Reduzido */
   }
-  .profileImage {
-    width: 200px; /* Reduzido */
-    height: auto; /* Manter proporção */
-  }
+  /* A imagem de perfil já tem width/height no JSX, o CSS abaixo pode ser para ajustar em telas menores se necessário */
+  /* .profileImage {
+    width: 200px; 
+    height: auto; 
+  } */
 }
 
 @media (max-width: 768px) {
@@ -129,7 +142,7 @@
   .ctaButton {
     font-size: 14px; /* Reduzido */
   }
-   .profileImage {
-    width: 160px; /* Reduzido */
-  }
+  /* .profileImage {
+    width: 160px; 
+  } */
 } 

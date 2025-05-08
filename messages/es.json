@@ -1,14 +1,141 @@
 {
   "Header": {
     "logo": "Mi Trayectoria",
-    "nav_about": "Sobre",
+    "nav_about": "Sobre mí",
     "nav_professional": "Profesional",
     "nav_academic": "Académico",
-    "donate_button": "Donar"
+    "donate_button": "Apoyar Intercambio"
   },
   "Hero": {
     "greeting": "¡Mucho gusto!",
-    "name": "Mi nombre es Breno Santos",
-    "cta_button": "Apoyar Intercambio"
+    "nameIntroduction": "Mi nombre es Breno Santos",
+    "ctaButton": "Apoyar Programa de Intercambio"
+  },
+  "AboutSection": {
+    "mainTitle": "Sobre Mí",
+    "topics": {
+      "sobre-mim": {
+        "title": "Un Poco Sobre Mí",
+        "text": "Desde temprana edad, mi curiosidad y ganas de aprender me han impulsado a buscar nuevos desafíos y conocimientos. Me apasiona la tecnología y la innovación, siempre en busca de soluciones creativas para problemas complejos. Creo en el poder de la colaboración y el aprendizaje continuo como herramientas para el crecimiento personal y profesional.",
+        "imageAlt": "Foto de Breno Santos"
+      },
+      "familia": {
+        "title": "Familia y Valores",
+        "text": "Mi familia es mi principal pilar, transmitiéndome valores como el respeto, la perseverancia y la importancia de la educación. Ellos me inspiran a seguir mis sueños y a nunca rendirme ante los obstáculos. Estos principios guían mis acciones y decisiones en todas las áreas de mi vida.",
+        "imageAlt": "Imagen representando familia y unión"
+      },
+      "infancia": {
+        "title": "Infancia y Descubrimientos",
+        "text": "Durante mi infancia, desarrollé un gran interés por explorar el mundo que me rodeaba. La lectura y los estudios siempre han sido fuentes de placer, abriendo puertas a nuevas ideas y perspectivas. Esta base fue fundamental para moldear quién soy hoy y para despertar mi pasión por el conocimiento.",
+        "imageAlt": "Imagen representando aprendizaje y descubrimientos en la infancia"
+      }
+    }
+  },
+  "CompanyCarousel": {
+    "sectionTitle": "Trayectoria Profesional",
+    "companies": {
+      "btg1": {
+        "name": "BTG Pactual (Mentoría)",
+        "description": "Participé en un programa de mentoría enfocado en el desarrollo de carrera e insights sobre el mercado financiero, con el acompañamiento de profesionales experimentados de BTG Pactual.",
+        "logoAlt": "Logo BTG Pactual"
+      },
+      "mckinsey": {
+        "name": "McKinsey & Company (Formación)",
+        "description": "Formación intensiva en consultoría estratégica, abordando metodologías para la resolución de problemas complejos, análisis de datos y desarrollo de presentaciones de impacto.",
+        "logoAlt": "Logo McKinsey & Company"
+      },
+      "btg2": {
+        "name": "BTG Pactual (Prácticas de UX Design)",
+        "description": "Trabajé en dos programas de prácticas de UX Design, colaborando en el desarrollo de soluciones digitales innovadoras para el sector financiero y aplicando principios de diseño centrado en el usuario.",
+        "logoAlt": "Logo BTG Pactual"
+      },
+      "bancopan": {
+        "name": "Banco Pan (Auditoría Interna)",
+        "description": "Prácticas en el área de Auditoría Interna, donde desarrollé habilidades analíticas y de evaluación de riesgos y controles internos en una institución financiera.",
+        "logoAlt": "Logo Banco Pan"
+      },
+      "bloomberg": {
+        "name": "Bloomberg (Mentoría)",
+        "description": "Programa de mentoría de seis meses enfocado en tecnología para el mercado financiero, con acceso a insights sobre las herramientas y plataformas de Bloomberg.",
+        "logoAlt": "Logo Bloomberg"
+      },
+      "salesforce": {
+        "name": "Salesforce (Mentoría)",
+        "description": "Mentoría de seis meses con foco en CRM y tecnologías Salesforce, explorando el ecosistema de la plataforma y sus aplicaciones para la optimización de procesos de negocio.",
+        "logoAlt": "Logo Salesforce"
+      },
+      "foursummit": {
+        "name": "Four Summit (Conferencia)",
+        "description": "Invitado a participar como oyente en la conferencia Four Summit, un evento enfocado en innovación, tecnología y emprendimiento, con ponencias de grandes figuras del mercado.",
+        "logoAlt": "Logo Four Summit"
+      }
+    }
+  },
+  "PhotoCarousel": {
+    "defaultTitle": "Galería de Fotos",
+    "images": {
+      "photo1": { "alt": "Foto personal de Breno en exteriores" },
+      "photo2": { "alt": "Registro de un momento especial" },
+      "photo3": { "alt": "Breno participando en un evento" },
+      "photo4": { "alt": "Recuerdo de un viaje o actividad" },
+      "photo5": { "alt": "Otra foto personal de Breno" },
+      "sp1": { "alt": "Momento de relajación" },
+      "sp2": { "alt": "Breno en un paisaje natural" },
+      "sp3": { "alt": "Registro de un logro personal" },
+      "sp4": { "alt": "Foto con amigos o colegas" }
+    }
+  },
+  "Page": {
+    "myPhotosTitle": "Mis Fotos",
+    "moreMomentsTitle": "Más Momentos Especiales"
+  },
+  "AcademicSection": {
+    "mainTitle": "Formación Académica",
+    "topics": {
+      "academico-geral": {
+        "title": "Grado en Ingeniería de Software",
+        "text": "Actualmente cursando Ingeniería de Software, con enfoque en el desarrollo de sistemas robustos y escalables, aplicando las mejores prácticas de ingeniería y metodologías ágiles.",
+        "imageAlt": "Símbolo o imagen representando Ingeniería de Software"
+      },
+      "cursos-extras": {
+        "title": "Cursos Complementarios y Certificaciones",
+        "text": "Busco constantemente mejorar mis conocimientos a través de cursos en línea, talleres y certificaciones en áreas como desarrollo web y móvil, computación en la nube e inteligencia artificial.",
+        "imageAlt": "Certificados o logos de plataformas de cursos"
+      },
+      "conquistas-academicas": {
+        "title": "Proyectos y Logros Académicos",
+        "text": "Participación en proyectos de investigación, desarrollo de aplicaciones prácticas y hackatones, donde pude aplicar los conocimientos adquiridos y colaborar en equipo para resolver desafíos reales.",
+        "imageAlt": "Trofeo o imagen de un proyecto exitoso"
+      }
+    }
+  },
+  "ExchangeProgram": {
+    "sectionTitle": "Proyecto de Intercambio en Bélgica",
+    "locationName": "Thomas More University of Applied Sciences",
+    "locationCountry": "Malinas - Bélgica",
+    "pixTitle": "Apoya este Sueño con PIX",
+    "pixButtonText": "Copiar Clave PIX",
+    "pixKeyValue": "TU-CLAVE-PIX-REAL-AQUI",
+    "alertPixCopied": "¡Clave PIX copiada al portapapeles!",
+    "alertPixError": "No se pudo copiar la clave PIX. Inténtalo manualmente.",
+    "progressTitle": "Progreso de la Recaudación",
+    "progressText": "{{arrecadado}} de {{meta}}",
+    "progressPercentageText": "¡{{percentage}}% del objetivo alcanzado!",
+    "costsTableTitle": "Desglose de Costos Estimados para el Intercambio",
+    "costsTable": {
+      "header": {
+        "item": "Concepto",
+        "costBRL": "Costo Estimado (BRL)",
+        "costEUR": "Costo Estimado (EUR)"
+      },
+      "items": {
+        "passagem": { "item": "Billetes de Avión (Ida y Vuelta)" },
+        "seguro": { "item": "Seguro de Viaje Obligatorio (5 meses)" },
+        "acomodacao": { "item": "Alojamiento y Gastos (5 meses)" },
+        "alimentacao": { "item": "Alimentación y Costos Básicos (5 meses)" },
+        "taxas": { "item": "Tasas Universitarias y Solicitud de Visa" },
+        "total": { "item": "TOTAL ESTIMADO" }
+      }
+    }
   }
 } 

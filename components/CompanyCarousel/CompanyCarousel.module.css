@@ -1,5 +1,14 @@
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move metade da largura total (o conjunto original de itens) */
+  }
+}
+
 .carouselSection {
-  padding: 24px 48px; /* Reduzido */
+  padding: 24px 0; /* Removido padding horizontal, section-content-container cuidará disso */
   background-color: #FFFFFF; /* Cor de fundo, se houver. Figma não especifica, usando branco. */
   width: 100%;
 }
@@ -14,90 +23,91 @@
   text-align: left; /* Figma default */
 }
 
+/* Novo: Janela de visualização do carrossel */
+.carouselViewport {
+  overflow: hidden;
+  width: 100%; /* Ocupa a largura do section-content-container */
+  position: relative; /* Para posicionamento de controles, se adicionados no futuro */
+  /* Adicionar um degradê nas laterais para um efeito de "fade" mais suave (opcional) */
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+/* Modificado: Trilho do carrossel */
 .carouselContainer {
   display: flex;
-  overflow-x: auto; /* Para permitir rolagem horizontal */
-  gap: 72px; /* Reduzido de 96px */
-  padding-bottom: 16px; /* Para dar espaço para a barra de rolagem e evitar corte */
-  align-items: flex-start; /* Alinha os itens no topo */
+  gap: 64px;                  /* Espaçamento entre os itens */
+  width: max-content;         /* Larga exatamente o suficiente para caber TODOS os itens (originais + duplicados) */
+  animation: scrollAnimation 40s linear infinite;
 }
 
-/* Estilizando a barra de rolagem (opcional, mas melhora a aparência) */
-.carouselContainer::-webkit-scrollbar {
-  height: 8px;
-}
+/* .carouselContainer:hover {
+  animation-play-state: paused;
+} */
 
-.carouselContainer::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
+/* Estilos da barra de rolagem removidos, pois não haverá mais rolagem manual visível */
 
-.carouselContainer::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-}
-
-.carouselContainer::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
+/* Modificado: Item individual do carrossel */
 .carouselItem {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Conforme Figma: layout_KGV6FS alignItems: center */
-  gap: 6px; /* Reduzido de 8px */
-  min-width: 180px; /* Reduzido de 220px */
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto; /* Para que os itens não encolham ou cresçam e mantenham sua largura base */
+  width: 144px; /* Largura base do item (original era min-width) */
   text-align: center;
+  box-sizing: border-box;
 }
 
 .companyName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Inter', sans-serif; /* Conforme Figma: style_OOBMM0 */
   font-weight: 600;
   font-size: 20px; /* Reduzido */
   line-height: 1.21;
   color: #0F581D; /* Conforme Figma: fill_MZCLHO */
-  margin: 0;
+  height: 48.4px;
 }
 
 .logoWrapper {
-  width: 144px; /* Reduzido */
-  height: 108px; /* Reduzido */
-  background-color: #f0f0f0; /* Placeholder background para o logo */
-  border-radius: 12px; /* Conforme Figma: borderRadius: 12px para Frame 7 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; /* Caso o logo seja maior que o wrapper */
+  width: 144px;
+  height: 108px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .companyLogo {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain; /* Para garantir que o logo caiba e mantenha proporção */
+  object-fit: cover;  /* Agora corta o excesso vertical e preenche largura total */
+  object-position: center; /* (opcional) Centraliza a imagem se for cortada */
 }
+
+
 
 .description {
   font-family: 'Inter', sans-serif; /* Conforme Figma: style_NKZCA7 */
   font-weight: 600;
-  font-size: 16px; /* Reduzido */
+  font-size: 14px; /* Reduzido */
   line-height: 1.21;
   color: #859C8B; /* Conforme Figma: fill_VK596H */
-  margin: 0;
+  margin: 1rem 0 0 0;
+  height: 48px; /* Para evitar que a altura do carrossel mude drasticamente com descrições de tamanhos diferentes */
 }
 
 /* Media Queries para Responsividade */
 @media (max-width: 768px) {
-  .carouselSection {
-    padding: 18px 24px; /* Reduzido */
-  }
   .sectionTitle {
     font-size: 22px; /* Reduzido */
   }
   .carouselContainer {
-    gap: 36px; /* Reduzido */
+    /* Ajuste a largura e/ou velocidade da animação para telas menores se necessário */
+    /* Exemplo: animation-duration: 30s; */
   }
   .carouselItem {
-    min-width: 150px; /* Reduzido */
+    width: 150px; /* Ajuste a largura do item para telas menores */
+    margin-right: 20px;
   }
   .companyName {
     font-size: 18px; /* Reduzido */
@@ -108,21 +118,20 @@
   }
   .description {
     font-size: 14px; /* Reduzido */
+    min-height: 50px;
   }
 }
 
 @media (max-width: 480px) {
-  .carouselSection {
-    padding: 12px;
-  }
   .sectionTitle {
     font-size: 20px; /* Reduzido */
   }
   .carouselContainer {
-    gap: 24px; /* Reduzido */
+    /* Exemplo: animation-duration: 25s; */
   }
   .carouselItem {
-    min-width: 120px; /* Reduzido */
+    width: 130px; /* Ajuste a largura do item para telas bem pequenas */
+    margin-right: 15px;
   }
   .companyName {
     font-size: 16px; /* Reduzido */
@@ -133,5 +142,6 @@
   }
   .description {
     font-size: 12px; /* Reduzido */
+    min-height: 40px;
   }
 } 

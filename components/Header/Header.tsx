@@ -16,12 +16,10 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logoContainer}>
-        <Link href="/" className={styles.logo}>
-        <Link href="/" legacyBehavior>
-          <a className={styles.logo}>{t('Header.logo')}</a>
-        </Link>
-      </div>
+        <div className={styles.logoContainer}>
+            <a className={styles.logo}>{t('Header.logo')}</a>
+          <LanguageSwitcher />
+        </div>
       <div className={styles.navActionsContainer}>
         <nav className={styles.nav}>
           <ul className={styles.navList}>
@@ -45,7 +43,6 @@ const Header = () => {
         <button onClick={() => handleScrollTo('intercambio')} className={styles.donateButton}>
           {t('Header.donate_button')}
         </button>
-        <LanguageSwitcher />
       </div>
     </header>
   );
