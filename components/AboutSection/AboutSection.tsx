@@ -1,30 +1,26 @@
 "use client";
-import Image from 'next/image';
-import styles from './AboutSection.module.css';
-import { useTranslation } from 'react-i18next';
+import Image from "next/image";
+import React from "react";
+import styles from "./AboutSection.module.css";
+import { useTranslation } from "react-i18next";
 
 interface Topic {
   id: string;
   imageUrl: string;
-  layout: 'textLeft' | 'textRight';
+  layout: "textLeft" | "textRight";
 }
 
-const aboutTopicIds: Pick<Topic, 'id' | 'imageUrl' | 'layout'>[] = [
+const aboutTopicIds: Pick<Topic, "id" | "imageUrl" | "layout">[] = [
   {
-    id: 'sobre-mim',
-    imageUrl: '/Fotos/Pessoal/20250411_061326.jpg',
-    layout: 'textLeft',
+    id: "sobre-mim",
+    imageUrl: "/About/Eu3.jpg",
+    layout: "textLeft",
   },
   {
-    id: 'familia',
-    imageUrl: '/Fotos/Pessoal/20250412_080635.jpg',
-    layout: 'textRight',
-  },
-  {
-    id: 'infancia',
-    imageUrl: '/Fotos/Pessoal/20250416_115932.jpg',
-    layout: 'textLeft',
-  },
+    id: "familia",
+    imageUrl: "/About/family.jpg",
+    layout: "textRight",
+  }
 ];
 
 const AboutSection = () => {
@@ -34,16 +30,31 @@ const AboutSection = () => {
     <section id="sobre" className={styles.aboutSection}>
       <div className="section-content-container">
         <div className={styles.divider}></div>
-        <h2 className={styles.mainTitle}>{t('AboutSection.mainTitle')}</h2>
+        <h2 className={styles.mainTitle}>{t("AboutSection.mainTitle")}</h2>
         <div className={styles.topicsContainer}>
           {aboutTopicIds.map((topic) => (
             <div
               key={topic.id}
-              className={`${styles.topicItem} ${topic.layout === 'textRight' ? styles.textRight : styles.textLeft}`}
+              className={`${styles.topicItem} ${
+                topic.layout === "textRight"
+                  ? styles.textRight
+                  : styles.textLeft
+              }`}
             >
               <div className={styles.topicTextContainer}>
-                <h3 className={styles.topicTitle}>{t(`AboutSection.topics.${topic.id}.title`)}</h3>
-                <p className={styles.topicText}>{t(`AboutSection.topics.${topic.id}.text`)}</p>
+                <h3 className={styles.topicTitle}>
+                  {t(`AboutSection.topics.${topic.id}.title`)}
+                </h3>
+                <p className={styles.topicText}>
+                  {t(`AboutSection.topics.${topic.id}.text`)
+                    .split("\n")
+                    .map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                </p>
               </div>
               <div className={styles.topicImageContainer}>
                 <Image
@@ -63,4 +74,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection; 
+export default AboutSection;

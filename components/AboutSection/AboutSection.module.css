@@ -1,5 +1,5 @@
 .aboutSection {
-  padding: 24px 48px; /* Reduzido */
+  padding: 48px 48px 96px 48px; /* Reduzido */
   width: 100%;
   background-color: #FFFFFF; /* Assumindo fundo branco */
 }
@@ -46,7 +46,6 @@
 .topicItem.textRight .topicTextContainer {
   order: 2;
   flex-basis: 60%;
-  text-align: right; /* Alinhamento para quando o texto está à direita */
 }
 
 .topicItem.textRight .topicImageContainer {
@@ -69,6 +68,10 @@
   margin: 0;
 }
 
+.topicTitle.textRight {
+  text-align: right;
+}
+
 .topicText {
   font-family: 'Inter', sans-serif; /* Conforme Figma: style_XG3VFR */
   font-weight: 600; /* No Figma está 600, mas visualmente parece mais leve. Ajustar se necessário. */
@@ -79,11 +82,11 @@
 }
 
 .topicImageContainer {
-  width: 360px; /* Reduzido */
-  height: 360px; /* Reduzido */
-  border-radius: 16px; /* Conforme Figma: borderRadius: 16px */
+  width: 360px; /* Mantendo a largura */
+  height: 480px; /* Aumentando a altura de 360px para 480px */
+  border-radius: 16px;
   overflow: hidden;
-  background-color: #D3D3D3; /* Cor de fundo fill_KUQX5Y */
+  background-color: #D3D3D3;
 }
 
 .topicImage {
@@ -130,8 +133,8 @@
   .topicItem.textRight .topicImageContainer {
     order: 1;
     width: 100%;
-    max-width: 300px; /* Reduzido */
-    height: auto; /* Manter proporção */
+    max-width: 400px; /* Aumentando o max-width para manter a proporção */
+    height: auto; /* Mantendo proporção */
   }
   .topicImageContainer{
     height: auto; /* Para se ajustar à imagem */

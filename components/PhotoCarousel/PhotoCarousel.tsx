@@ -11,11 +11,11 @@ interface CarouselImageInput {
 
 // Os textos fixos foram removidos daqui, serão obtidos via t()
 const defaultCarouselImageIds: CarouselImageInput[] = [
-  { id: 'photo1', src: '/Fotos/Pessoal/20250411_061325.jpg' },
-  { id: 'photo2', src: '/Fotos/Pessoal/20250412_080644.jpg' },
-  { id: 'photo3', src: '/Fotos/Pessoal/20250416_115942.jpg' },
-  { id: 'photo4', src: '/Fotos/Pessoal/20250412_080636.jpg' },
-  { id: 'photo5', src: '/Fotos/Pessoal/20250416_120857.jpg' },
+  { id: 'photo1', src: '/About/Corrosel/F1.jpg' },
+  { id: 'photo2', src: '/About/Corrosel/F2.jpg' },
+  { id: 'photo3', src: '/About/Corrosel/F3.jpg' },
+  { id: 'photo4', src: '/About/Corrosel/F4.jpg' },
+  { id: 'photo5', src: '/About/Corrosel/F5.jpg' },
 ];
 
 interface PhotoCarouselProps {

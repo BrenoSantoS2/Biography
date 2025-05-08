@@ -16,18 +16,13 @@
     "topics": {
       "sobre-mim": {
         "title": "Um Pouco Sobre Mim",
-        "text": "Desde cedo, minha curiosidade e vontade de aprender me impulsionaram a buscar novos desafios e conhecimentos. Sou apaixonado por tecnologia e inovação, sempre em busca de soluções criativas para problemas complexos. Acredito no poder da colaboração e no aprendizado contínuo como ferramentas para o crescimento pessoal e profissional.",
+        "text": "Muito prazer! Meu nome é Breno Santos, tenho 19 anos e sou natural de Belo Horizonte, Minas Gerais. \n\n Ao longo da minha vida, enfrentei muitos desafios, mas também conquistei marcos importantes que me enchem de orgulho. Entre eles, consegui uma bolsa de estudos em uma escola de excelência na minha cidade natal, depois uma bolsa integral para cursar a universidade e morar em São Paulo e, mais recentemente, conquistei uma vaga de intercâmbio para a Bélgica!\n\nEssas conquistas são apenas alguns dos capítulos da minha história. Se você quiser conhecer mais de perto meu caminho, meus sonhos e como você pode fazer parte disso, continue lendo os tópicos abaixo. Prometo contar tudo com o coração aberto.",
         "imageAlt": "Foto de Breno Santos"
       },
       "familia": {
         "title": "Família e Valores",
-        "text": "Minha família é meu principal alicerce, transmitindo valores como respeito, perseverança e a importância da educação. Eles me inspiram a seguir meus sonhos e a nunca desistir diante dos obstáculos. Esses princípios guiam minhas ações e decisões em todas as áreas da minha vida.",
+        "text": "Minha mãe, Irene, professora de português e corretora de redações, foi a primeira a plantar em mim a semente da educação como ferramenta de transformação. Desde muito novo, ela me ensinou que o estudo pode abrir portas que parecem impossíveis de alcançar. E, mesmo com dificuldades, sempre se sacrificou para que eu tivesse acesso às melhores oportunidades. Hoje, com o coração cheio de gratidão, reconheço cada esforço dela. \n\n Foi com meu pai, Rodrigo, técnico de TI e responsável por fazer manutenção em computadores no nosso bairro, que dei meus primeiros passos no mundo da tecnologia uma área que, anos depois, mudaria o rumo da minha vida. \n\n E não posso deixar de mencionar meu querido avô, Milton, que sempre acreditou no meu potencial. Mesmo com as limitações da idade e dos recursos, ele fez tudo que estava ao seu alcance para apoiar meu crescimento. O amor dele se traduzia em pequenos gestos, que no fundo sempre foram gigantes. \n\n E agradecimento a muitos outros que não pude agradecer nesse pequeno espaço, pois minha família é minha origem, meu alicerce. Tudo que conquistei até aqui tem um pedacinho deles.",
         "imageAlt": "Imagem representando família e união"
-      },
-      "infancia": {
-        "title": "Infância e Descobertas",
-        "text": "Durante minha infância, desenvolvi um grande interesse por explorar o mundo ao meu redor. A leitura e os estudos sempre foram fontes de prazer, abrindo portas para novas ideias e perspectivas. Essa base foi fundamental para moldar quem sou hoje e para despertar minha paixão pelo conhecimento.",
-        "imageAlt": "Imagem representando aprendizado e descobertas na infância"
       }
     }
   },
@@ -128,13 +123,13 @@
     "mainTitle": "Formação Acadêmica",
     "topics": {
       "academico-geral": {
-        "title": "Graduação em Engenharia de Software",
-        "text": "Atualmente cursando Engenharia de Software, com foco em desenvolvimento de sistemas robustos e escaláveis, aplicando as melhores práticas de engenharia e metodologias ágeis.",
+        "title": "Começo da Jornada",
+        "text": "Minha jornada acadêmica começou de forma turbulenta. Nos primeiros anos do ensino fundamental, estudei em uma escola pública do meu bairro. Era muito novo, mas já sentia o peso da exclusão. Sofria bullying por parte de colegas e, o que mais me marcou, até mesmo de professores. Fui colocado no fundo da sala, rotulado como 'aluno burro', por ter naquele momento dificuldades de leitura. \n\n Quando meus pais descobriram o que estava acontecendo, ficaram indignados. Com muito esforço e sacrifício, juntaram o que podiam e me transferiram para uma pequena escola particular da mesma região. Foi nessa nova escola que algo começou a despertar em mim: o interesse pela matemática e uma curiosidade insaciável de aprender conteúdos que me chamavam atenção. E pela primeira vez, me senti mais seguro e incluído em um lugar em que eu era bem vindo. \n\n Esse foi o ponto de virada. A partir daí, cada passo nos estudos passou a ter um novo significado: não era só sobre provas e lições, mas sobre fazer algo que me fascinava.",
         "imageAlt": "Símbolo ou imagem representando Engenharia de Software"
       },
       "cursos-extras": {
-        "title": "Cursos Complementares e Certificações",
-        "text": "Busco constantemente aprimorar meus conhecimentos através de cursos online, workshops e certificações em áreas como desenvolvimento web, mobile, cloud computing e inteligência artificial.",
+        "title": "Primeiras Conquistas!",
+        "text": "Na nova escola, tudo começou a mudar. O menino que antes era isolado no fundo da sala, agora era referência em matemática. Passei a ser chamado pela professora para ajudar colegas com dificuldade e isso despertou em mim algo transformador: a confiança de que eu podia, sim, aprender e ensinar. \n\n Mas foi em 2017 que aconteceu o verdadeiro ponto de virada. Minha mãe, sempre acreditando em mim, me inscreveu no processo seletivo do Projeto Ismart, um programa que oferece bolsas de estudo para jovens de alto potencial, mas com poucas oportunidades. Depois de um rigoroso processo com cinco etapas, mais de 14 mil candidatos e apenas 20 vagas disponíveis... eu fui aprovado! \n\n Com isso, conquistei uma bolsa integral para estudar na melhor escola particular de Belo Horizonte. Uma oportunidade que, sem esse projeto, nunca teria estado ao meu alcance e que marcou o início de uma nova fase na minha vida. \n\n Foi ali que meu sonho de transformar minha realidade começou a tomar forma de verdade.",
         "imageAlt": "Certificados ou logos de plataformas de cursos"
       },
       "conquistas-academicas": {

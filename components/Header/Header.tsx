@@ -16,10 +16,12 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-        <div className={styles.logoContainer}>
-            <a className={styles.logo}>{t('Header.logo')}</a>
-          <LanguageSwitcher />
-        </div>
+      <div className={styles.logoContainer}>
+        <Link href="/" className={styles.logo}>
+          {t('Header.logo')}
+        </Link>
+        <LanguageSwitcher />
+      </div>
       <div className={styles.navActionsContainer}>
         <nav className={styles.nav}>
           <ul className={styles.navList}>
