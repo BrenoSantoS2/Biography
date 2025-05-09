@@ -14,18 +14,33 @@ interface TopicData {
 const academicTopicIds: TopicData[] = [
   {
     id: "academico-geral",
-    imageUrl: "/Fotos/Pessoal/20250416_115933.jpg", // Placeholder image
+    imageUrl: "/Academic/F1.jpg", // Placeholder image
     layout: "textLeft",
   },
   {
     id: "cursos-extras",
-    imageUrl: "/Fotos/Pessoal/20250416_115940.jpg", // Placeholder image
+    imageUrl: "/Academic/Carrosel/F5.jpg", // Placeholder image
     layout: "textRight",
   },
   {
     id: "conquistas-academicas",
-    imageUrl: "/Fotos/Pessoal/20250416_120856.jpg", // Placeholder image
+    imageUrl: "/Academic/F4.jpeg", // Placeholder image
     layout: "textLeft",
+  },
+  {
+    id: "universidade",
+    imageUrl: "/Academic/F6.jpg", // Placeholder image
+    layout: "textRight",
+  },
+  {
+    id: "universidade2",
+    imageUrl: "/Academic/F5.jpg", // Placeholder image
+    layout: "textLeft",
+  },
+  {
+    id: "intercambio",
+    imageUrl: "/Academic/F7.jpg", // Placeholder image
+    layout: "textRight",
   },
 ];
 

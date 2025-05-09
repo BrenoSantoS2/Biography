@@ -128,14 +128,29 @@
         "imageAlt": "Símbolo ou imagem representando Engenharia de Software"
       },
       "cursos-extras": {
-        "title": "Primeiras Conquistas!",
+        "title": "Reconhecimento!",
         "text": "Na nova escola, tudo começou a mudar. O menino que antes era isolado no fundo da sala, agora era referência em matemática. Passei a ser chamado pela professora para ajudar colegas com dificuldade e isso despertou em mim algo transformador: a confiança de que eu podia, sim, aprender e ensinar. \n\n Mas foi em 2017 que aconteceu o verdadeiro ponto de virada. Minha mãe, sempre acreditando em mim, me inscreveu no processo seletivo do Projeto Ismart, um programa que oferece bolsas de estudo para jovens de alto potencial, mas com poucas oportunidades. Depois de um rigoroso processo com cinco etapas, mais de 14 mil candidatos e apenas 20 vagas disponíveis... eu fui aprovado! \n\n Com isso, conquistei uma bolsa integral para estudar na melhor escola particular de Belo Horizonte. Uma oportunidade que, sem esse projeto, nunca teria estado ao meu alcance e que marcou o início de uma nova fase na minha vida. \n\n Foi ali que meu sonho de transformar minha realidade começou a tomar forma de verdade.",
         "imageAlt": "Certificados ou logos de plataformas de cursos"
       },
-      "conquistas-academicas": {
-        "title": "Projetos e Conquistas Acadêmicas",
-        "text": "Participação em projetos de pesquisa, desenvolvimento de aplicações práticas e hackathons, onde pude aplicar o conhecimento adquirido e colaborar em equipe para solucionar desafios reais.",
-        "imageAlt": "Troféu ou imagem de um projeto bem-sucedido"
+        "conquistas-academicas": {
+          "title": "Sacrifícios e Conquistas",
+          "text": "Adaptar-me à nova escola de elite para a qual consegui uma bolsa pelo Ismart foi um grande desafio. As pessoas ao meu redor viviam uma realidade muito diferente da minha, o que tornou tudo ainda mais intenso. \n\n Durante dois anos, estudei em duas escolas ao mesmo tempo, acordava cedo para ir a uma, almoçava rapidamente e pegava o ônibus sozinho todos os dias até o centro da cidade, só voltando para casa tarde da noite, não sendo muito diferente no ensino médio que chegava a ser até mais intenso. \n\n Foi uma rotina puxada, mas cheia de propósito. Todo esse sacrifício valeu a pena: fiz muitos amigos, amadureci e descobri novas oportunidades. Uma delas foram as olimpíadas do conhecimento, onde tive a alegria de conquistar três medalhas de ouro e uma menção honrosa.",
+          "imageAlt": "Troféu ou imagem de um projeto bem-sucedido"
+      },
+      "universidade": {
+        "title": "Vestibular e nova vida em São Paulo",
+        "text": "A cada ano, a rotina se tornava mais puxada. No terceiro ano do ensino médio, cheguei ao meu limite: tinha aulas de segunda a sábado, saía de casa às 4h30 da manhã e só voltava depois das 19h. Toda semana havia provas, além de simulações do Enem que testavam não só meus conhecimentos, mas também minha resistência emocional. \n\n Sinceramente, houve momentos em que achei que não aguentaria. Mas todo esse sacrifício teve seu reconhecimento: fui aprovado direto do ensino médio para a universidade, com direito a uma bolsa de estudos integral. Isso me permitiu me mudar para São Paulo e estudar em uma das melhores universidades de tecnologia do país o Inteli. \n\n Na época, mesmo tendo que deixar tudo que conhecia para trás e encarar uma cidade nova, totalmente diferente e longe de casa, estava pronto para abraçar o mundo. Encarei essa nova fase sozinho, mas com coragem, vontade e o mesmo espírito de luta que me trouxe até aqui. Mais do que nunca, decidi a correr atrás de mais uma oportunidade transformadora.",
+        "imageAlt": "Imagem representando a Universidade Federal de Itajubá"
+      },
+      "universidade2": {
+        "title": "Universidade",
+        "text": "Na universidade, amadureci como nunca antes. O modelo de ensino baseado em projetos me transformou profundamente, ensinando não apenas a parte técnica, mas também como lidar com pessoas, trabalhar em equipe e tirar ideias do papel. \n\n Até agora, já desenvolvi mais de 10 projetos reais para grandes empresas, como IBM, Volkswagen, Hospital Sírio-Libanês, entre outras. Além disso, assumi a diretoria de Recursos Humanos em uma entidade estudantil, onde pude aplicar na prática tudo o que venho aprendendo sobre liderança e gestão de pessoas. \n\n Tive também a oportunidade de participar de eventos nos escritórios das maiores empresas do mundo, como Google e Amazon, sendo reconhecido como uma futura liderança em programas como o LALA (Latin American Leadership Academy), Ismart e Fundação Estudar. Cada uma dessas experiências reforçou meu propósito e me mostrou que estou no caminho certo.",
+        "imageAlt": "Imagem representando a Universidade Federal de Itajubá"
+      },
+      "intercambio": {
+        "title": "Oportunidade de Intercâmbio",
+        "text": "Recentemente, conquistei uma nova oportunidade que representa o próximo grande passo da minha jornada acadêmica e pessoal: fui aprovado no programa de intercâmbio da minha universidade. Meu desempenho foi tão destacado que, diferentemente da maioria dos alunos, pude escolher meu destino, algo raro, já que normalmente é a própria universidade quem define. \n\n Entre opções como Myongji, na Coreia do Sul, Saxion University, na Holanda, e Thomas More, na Bélgica, escolhi a Bélgica por acreditar que será o ambiente ideal para meu desenvolvimento como profissional e levando em consideração meu amadurecimento. \n\n No entanto, embora eu tenha conseguido uma bolsa que cobre as mensalidades da universidade de destino, os demais custos, como moradia, alimentação e transporte, ainda são uma barreira. Por isso, estou buscando apoio para tornar esse sonho possível. Mais do que uma viagem, esse intercâmbio é uma chance de transformar meu futuro e, com sua ajuda, ele pode se tornar realidade.",
+        "imageAlt": "Imagem representando a Universidade Federal de Itajubá"
       }
     }
   },
