@@ -1,0 +1,91 @@
+/* Estilos da ProfessionalExperienceSection.module.css 
+   Muitos estilos anteriores foram removidos ou simplificados 
+   porque o ContentCarousel e os estilos globais/de página cuidam da seção.
+*/
+
+/* Novo container para a seção geral de experiências, se precisar de estilização específica */
+.professionalExperienceContainer {
+  /* padding: 20px 0; Se precisar de espaçamento vertical adicional entre esta seção e outras */
+}
+
+.experienceItem {
+  background-color: #f9f9f9;
+  padding: 0; /* Padding será interno à foto e ao conteúdo para melhor controle */
+  border-radius: 8px;
+  margin-bottom: 20px; /* Já definido pelo gap do carrossel, mas pode manter para consistência se usado fora */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 350px; /* Largura fixa para os cards no carrossel, ajuste conforme necessário */
+  flex-shrink: 0; /* IMPORTANTE: Impede que os itens encolham no container flex do carrossel */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Para que o border-radius da imagem funcione bem */
+}
+
+.experienceItemPhoto {
+  width: 100%;
+  height: 180px;
+  background-color: #e0e0e0; /* Placeholder */
+  /* border-radius: 6px 6px 0 0;  Não mais necessário aqui se o padding do item for 0 */
+  background-size: cover; /* Para a backgroundImage funcionar bem */
+  background-position: center; /* Para a backgroundImage funcionar bem */
+}
+
+.experienceItemContent {
+  padding: 20px; /* Padding para o conteúdo textual */
+  text-align: left;
+  flex-grow: 1; /* Faz o conteúdo textual ocupar o espaço restante no card */
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceItemContent h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 8px; /* Restaurada a margem inferior */
+  /* flex-grow: 1; Não mais necessário aqui sem a tag ao lado */
+}
+
+.experienceItemContent p {
+  font-size: 0.9rem; /* Ajustado para cards */
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 10px;
+  flex-grow: 1; /* Para empurrar o link para baixo se o conteúdo for pouco */
+}
+
+.experienceItemContent p em {
+  color: #888;
+  font-style: italic;
+}
+
+.experienceItemContent ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 0; /* Ajustado */
+  margin-bottom: 15px; /* Espaço antes do link "Ver Mais" */
+  font-size: 0.9rem;
+}
+
+.experienceItemContent ul li {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.experienceItemContent a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: auto; /* Empurra o link para o final do card */
+  align-self: flex-start; /* Alinha o link à esquerda */
+}
+
+.experienceItemContent a:hover {
+  text-decoration: underline;
+}
+
+/* Remover estilos não mais necessários */
+/* .professionalExperienceSection h2 { ... } foi para ContentCarousel.module.css */
+/* .experienceCategory { ... } foi removido pois o carrossel lida com o agrupamento */
+/* .experienceCategory h3 { ... } foi removido */ 

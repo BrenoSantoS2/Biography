@@ -6,6 +6,7 @@ import AboutSection from '../../components/AboutSection/AboutSection'; // Caminh
 import PhotoCarousel from '../../components/PhotoCarousel/PhotoCarousel'; // Caminho ajustado
 import AcademicSection from '../../components/AcademicSection/AcademicSection'; // Caminho ajustado
 import ExchangeProgram from '../../components/ExchangeProgram/ExchangeProgram'; // Caminho ajustado
+import ProfessionalExperienceSection from '../../components/ProfessionalExperienceSection/ProfessionalExperienceSection'; // Novo componente
 
 const firstPhotoCarouselImages = [
   { id: 'sp1', src: '/About/Carrosel/F1.jpg', alt: 'Segunda Foto Pessoal 1' },
@@ -82,6 +83,7 @@ export default function HomePage() {
       <PhotoCarousel images={firstPhotoCarouselImages} /> {/* Usará tradução para o título */}
       <AcademicSection />
       <PhotoCarousel images={secondPhotoCarouselImages} /> {/* Usará tradução para o título */}
+      <ProfessionalExperienceSection />
       <ExchangeProgram />
     </div>
   );

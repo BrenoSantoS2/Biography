@@ -1,0 +1,76 @@
+.contentCarouselSection {
+  padding: 48px 0;
+  /* background-color: #f8f9fa; Um fundo suave, se desejado */
+  width: 100%;
+  margin-bottom: 30px; /* Espaço após a seção */
+}
+
+.sectionTitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.21;
+  color: #333; /* Cor do título, ajustar conforme o tema */
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.carouselContainer {
+  display: flex;
+  overflow-x: auto;
+  gap: 24px; /* Espaço entre os itens do carrossel */
+  padding: 16px; /* Padding para ver as sombras dos cards e espaço para a barra de rolagem */
+  /* Efeito de fade nas bordas laterais */
+  -webkit-mask-image: linear-gradient(to right, transparent, black 30px, black calc(100% - 30px), transparent);
+  mask-image: linear-gradient(to right, transparent, black 30px, black calc(100% - 30px), transparent);
+  /* Os 30px acima são a largura da área de fade. Ajuste conforme necessário. */
+}
+
+/* Estilizando a barra de rolagem (similar ao PhotoCarousel) */
+.carouselContainer::-webkit-scrollbar {
+  height: 10px;
+}
+
+.carouselContainer::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+  margin: 0 25px; /* Para não sobrepor o fade */
+}
+
+.carouselContainer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.carouselContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* 
+  Não há .carouselItem aqui pois o estilo dos itens 
+  será definido pelo componente que os fornece (ProfessionalExperienceSection)
+  Mas é importante que os children diretos do .carouselContainer tenham flex-shrink: 0;
+*/
+
+/* Media Queries (opcional, pode ser ajustado conforme necessidade) */
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 28px;
+  }
+  .carouselContainer {
+    padding-left: 20px; /* Ajuste para telas menores */
+    padding-right: 20px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 22px;
+  }
+  .carouselContainer {
+    padding-left: 10px; /* Ajuste para telas menores */
+    padding-right: 10px;
+    gap: 10px;
+  }
+} 
