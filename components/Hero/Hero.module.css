@@ -115,7 +115,9 @@
     text-align: center;
   }
   .textContainer {
+    padding: 96px 0px 30px 0px;
     max-width: 100%;
+    justify-content: center;
     align-items: center;
   }
   .title {
@@ -124,8 +126,10 @@
   .ctaButton {
     font-size: 16px; /* Reduzido */
     padding: 8px 32px; /* Reduzido */
+    align-self: center;
   }
   .imageContainer {
+    display: none;
     margin-top: 24px; /* Reduzido */
   }
   /* A imagem de perfil já tem width/height no JSX, o CSS abaixo pode ser para ajustar em telas menores se necessário */

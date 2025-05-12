@@ -15,14 +15,14 @@
     "mainTitle": "About Me",
     "topics": {
       "sobre-mim": {
-        "title": "A Little About Myself",
-        "text": "Since an early age, my curiosity and willingness to learn have driven me to seek new challenges and knowledge. I am passionate about technology and innovation, always looking for creative solutions to complex problems. I believe in the power of collaboration and continuous learning as tools for personal and professional growth.",
+        "title": "A Little About Me",
+        "text": "Nice to meet you! My name is Breno Santos, I am 19 years old and I am from Belo Horizonte, Minas Gerais, Brazil. \n\n Throughout my life, I have faced many challenges, but I have also achieved important milestones that fill me with pride. Among them, I managed to get a scholarship at an excellent school in my hometown, then a full scholarship to attend university and live in São Paulo and, more recently, I won an exchange spot for Belgium!\n\n These achievements are just a few chapters of my story. If you want to know more about my path, my dreams, and how you can be part of it, keep reading the topics below. I promise to tell you everything with an open heart.",
         "imageAlt": "Photo of Breno Santos"
       },
       "familia": {
         "title": "Family and Values",
-        "text": "My family is my main foundation, instilling values such as respect, perseverance, and the importance of education. They inspire me to follow my dreams and never give up in the face of obstacles. These principles guide my actions and decisions in all areas of my life.",
-        "imageAlt": "Image representing family and unity"
+        "text": "My mother, Irene, a Portuguese teacher and essay grader, was the first to plant in me the seed of education as a tool for transformation. From a very young age, she taught me that studying can open doors that seem impossible to reach. And, even with difficulties, she always sacrificed herself so that I could have access to the best opportunities. Today, with a heart full of gratitude, I acknowledge her every effort. \n\n It was with my father, Rodrigo, an IT technician responsible for computer maintenance in our neighborhood, that I took my first steps into the world of technology, an area that, years later, would change the course of my life. \n\n And I cannot fail to mention my dear grandfather, Milton, who always believed in my potential. Even with the limitations of age and resources, he did everything in his power to support my growth. His love translated into small gestures, which deep down were always giant. \n\n And thanks to many others whom I could not thank in this small space, because my family is my origin, my foundation. Everything I have achieved so far has a piece of them.",
+        "imageAlt": "Image representing family and union"
       },
       "infancia": {
         "title": "Childhood and Discoveries",
@@ -32,42 +32,77 @@
     }
   },
   "CompanyCarousel": {
-    "sectionTitle": "Professional Journey",
+    "sectionTitle": "Some places I've been",
     "companies": {
       "btg1": {
-        "name": "BTG Pactual (Mentorship)",
-        "description": "Participated in a mentorship program focused on career development and insights into the financial market, with guidance from experienced professionals at BTG Pactual.",
+        "name": "BTG Pactual",
+        "description": "6-month mentorship",
         "logoAlt": "BTG Pactual Logo"
       },
       "mckinsey": {
-        "name": "McKinsey & Company (Training)",
-        "description": "Intensive training in strategic consulting, covering methodologies for solving complex problems, data analysis, and developing impactful presentations.",
+        "name": "McKinsey & Company",
+        "description": "Management training",
         "logoAlt": "McKinsey & Company Logo"
       },
       "btg2": {
-        "name": "BTG Pactual (UX Design Internship)",
-        "description": "Worked in two UX Design internship programs, collaborating on the development of innovative digital solutions for the financial sector and applying user-centered design principles.",
+        "name": "BTG Pactual",
+        "description": "2 UX Design summer internships",
         "logoAlt": "BTG Pactual Logo"
       },
       "bancopan": {
-        "name": "Banco Pan (Internal Audit)",
-        "description": "Internship in the Internal Audit area, where I developed analytical skills and assessed risks and internal controls in a financial institution.",
+        "name": "Banco Pan",
+        "description": "Regular internship in Internal Audit",
         "logoAlt": "Banco Pan Logo"
       },
       "bloomberg": {
-        "name": "Bloomberg (Mentorship)",
-        "description": "Six-month mentorship program focused on technology for the financial market, with access to insights on Bloomberg's tools and platforms.",
+        "name": "Bloomberg",
+        "description": "6-month mentorship",
         "logoAlt": "Bloomberg Logo"
       },
       "salesforce": {
-        "name": "Salesforce (Mentorship)",
-        "description": "Six-month mentorship focused on CRM and Salesforce technologies, exploring the platform's ecosystem and its applications for optimizing business processes.",
+        "name": "Salesforce",
+        "description": "Six-month mentorship",
         "logoAlt": "Salesforce Logo"
       },
       "foursummit": {
-        "name": "Four Summit (Conference)",
-        "description": "Invited to attend the Four Summit conference, an event focused on innovation, technology, and entrepreneurship, featuring talks by prominent market figures.",
+        "name": "Four Summit",
+        "description": "Invited to the Four Summit conference",
         "logoAlt": "Four Summit Logo"
+      },
+      "ismart": {
+        "name": "Ismart",
+        "description": "Scholarship holder and outstanding student",
+        "logoAlt": "Ismart Logo"
+      },
+      "fundaçãoEstudar": {
+        "name": "Fundação Estudar",
+        "description": "2x Invited to conferences (Innovation/Finance)",
+        "logoAlt": "Fundação Estudar Logo"
+      },
+      "amazon": {
+        "name": "Amazon",
+        "description": "Invited to SpeedMentoring",
+        "logoAlt": "Amazon Logo"
+      },
+      "skyone": {
+        "name": "Skyone",
+        "description": "6-month mentorship",
+        "logoAlt": "Skyone Logo"
+      },
+      "lala": {
+        "name": "Latam Leadership Academy",
+        "description": "Considered one of the future leaders of Latin America",
+        "logoAlt": "Lala Logo"
+      },
+      "inteli": {
+        "name": "Inteli",
+        "description": "Scholarship holder and outstanding student",
+        "logoAlt": "Inteli Logo"
+      },
+      "gamelab": {
+        "name": "Inteli GameLab",
+        "description": "Human Resources Director",
+        "logoAlt": "GameLab Logo"
       }
     }
   },
@@ -93,19 +128,34 @@
     "mainTitle": "Academic Background",
     "topics": {
       "academico-geral": {
-        "title": "Degree in Software Engineering",
-        "text": "Currently pursuing a degree in Software Engineering, focusing on the development of robust and scalable systems, applying best engineering practices and agile methodologies.",
+        "title": "Beginning of the Journey",
+        "text": "My academic journey began turbulently. In the early years of elementary school, I studied at a public school in my neighborhood. I was very young, but I already felt the weight of exclusion. I suffered bullying from classmates and, what marked me most, even from teachers. I was placed at the back of the classroom, labeled as a 'dumb student,' because I had reading difficulties at that time. \n\n When my parents found out what was happening, they were outraged. With much effort and sacrifice, they gathered what they could and transferred me to a small private school in the same region. It was in this new school that something began to awaken in me: an interest in mathematics and an insatiable curiosity to learn subjects that caught my attention. And for the first time, I felt safer and more included in a place where I was welcome. \n\n That was the turning point. From then on, each step in my studies took on a new meaning: it wasn't just about tests and lessons, but about doing something that fascinated me.",
         "imageAlt": "Symbol or image representing Software Engineering"
       },
       "cursos-extras": {
-        "title": "Complementary Courses and Certifications",
-        "text": "I constantly seek to improve my knowledge through online courses, workshops, and certifications in areas such as web and mobile development, cloud computing, and artificial intelligence.",
+        "title": "Recognition!",
+        "text": "At the new school, everything started to change. The boy who was once isolated at the back of the room was now a reference in mathematics. I started to be called by the teacher to help classmates with difficulties, and this awakened something transformative in me: the confidence that I could, indeed, learn and teach. \n\n But it was in 2017 that the real turning point happened. My mother, always believing in me, enrolled me in the selection process for the Ismart Project, a program that offers scholarships to high-potential young people with few opportunities. After a rigorous five-stage process, with over 14,000 candidates and only 20 available spots... I was approved! \n\n With that, I won a full scholarship to study at the best private school in Belo Horizonte. An opportunity that, without this project, would never have been within my reach and that marked the beginning of a new phase in my life. \n\n It was there that my dream of transforming my reality truly began to take shape.",
         "imageAlt": "Certificates or logos of course platforms"
       },
       "conquistas-academicas": {
-        "title": "Academic Projects and Achievements",
-        "text": "Participation in research projects, development of practical applications, and hackathons, where I could apply acquired knowledge and collaborate in teams to solve real-world challenges.",
+        "title": "Sacrifices and Achievements",
+        "text": "Adapting to the new elite school for which I got a scholarship through Ismart was a great challenge. The people around me lived a very different reality from mine, which made everything even more intense. \n\n For two years, I studied in two schools at the same time, woke up early to go to one, had a quick lunch, and took the bus alone every day to the city center, only returning home late at night. It wasn't much different in high school, which could be even more intense. \n\n It was a tough routine, but full of purpose. All this sacrifice was worth it: I made many friends, matured, and discovered new opportunities. One of them was the knowledge olympiads, where I had the joy of winning three gold medals and an honorable mention.",
         "imageAlt": "Trophy or image of a successful project"
+      },
+      "universidade": {
+        "title": "Entrance Exam and New Life in São Paulo",
+        "text": "Each year, the routine became more demanding. In the third year of high school, I reached my limit: I had classes from Monday to Saturday, left home at 4:30 AM, and only returned after 7 PM. Every week there were tests, in addition to Enem simulations that tested not only my knowledge but also my emotional resilience. \n\n Honestly, there were moments when I thought I couldn't take it anymore. But all this sacrifice was recognized: I was accepted directly from high school to university, with a full scholarship. This allowed me to move to São Paulo and study at one of the best technology universities in the country, Inteli. \n\n At the time, even having to leave everything I knew behind and face a new city, totally different and far from home, I was ready to embrace the world. I faced this new phase alone, but with courage, willingness, and the same fighting spirit that brought me here. More than ever, I decided to chase another transformative opportunity.",
+        "imageAlt": "Image representing Inteli - Institute of Technology and Leadership"
+      },
+      "universidade2": {
+        "title": "University",
+        "text": "At university, I matured like never before. The project-based teaching model transformed me profoundly, teaching not only the technical part but also how to deal with people, work in a team, and bring ideas to life. \n\n So far, I have developed more than 10 real projects for large companies such as IBM, Volkswagen, Hospital Sírio-Libanês, among others. In addition, I took on the directorship of Human Resources in a student entity, where I could apply in practice everything I have been learning about leadership and people management. \n\n I also had the opportunity to participate in events at the offices of the world's largest companies, such as Google and Amazon, being recognized as a future leader in programs like LALA (Latin American Leadership Academy), Ismart, and Fundação Estudar. Each of these experiences reinforced my purpose and showed me that I am on the right path.",
+        "imageAlt": "Image representing Inteli - Institute of Technology and Leadership"
+      },
+      "intercambio": {
+        "title": "Exchange Opportunity",
+        "text": "Recently, I gained a new opportunity that represents the next big step in my academic and personal journey: I was approved for my university's exchange program. My performance was so outstanding that, unlike most students, I was able to choose my destination, something rare, as the university usually defines it. \n\n Among options like Myongji in South Korea, Saxion University in the Netherlands, and Thomas More in Belgium, I chose Belgium because I believe it will be the ideal environment for my development as a professional and considering my maturation. \n\n However, although I managed to get a scholarship that covers the tuition fees of the host university, the other costs, such as housing, food, and transportation, are still a barrier. Therefore, I am seeking support to make this dream possible. More than a trip, this exchange is a chance to transform my future and, with your help, it can become a reality.",
+        "imageAlt": "Image representing Thomas More University of Applied Sciences"
       }
     }
   },
@@ -135,6 +185,219 @@
         "alimentacao": { "item": "Food and Basic Living Costs (5 months)" },
         "taxas": { "item": "University Fees and Visa Application" },
         "total": { "item": "ESTIMATED TOTAL" }
+      }
+    }
+  },
+  "ProfessionalExperienceSection": {
+    "mainTitle": "Professional Experience",
+    "categoryTypes": {
+      "trabalho": "Work",
+      "projeto": "Project",
+      "outros": "Others"
+    },
+    "categoryTitles": {
+      "trabalho": "Works",
+      "projeto": "Projects",
+      "outros": "Others"
+    },
+    "technologiesLabel": "Technologies",
+    "seeMoreLabel": "See More",
+    "experiences": {
+      "trabalho1": {
+        "type": "Work",
+        "photoUrl": "/Professional/BTG.jpg",
+        "title": "UX Designer - BTG Pactual Summer Internship",
+        "subtitle": "Jan 2023 - Feb 2023 | BTG Pactual",
+        "descriptionLines": [
+          "Development of high-fidelity components for the BTG Pactual website.",
+          "Learned various concepts of interface design and user experience."
+        ],
+        "technologies": "Figma"
+      },
+      "trabalho2": {
+        "type": "Work",
+        "photoUrl": "/Professional/BTG.jpg",
+        "title": "UX Designer - BTG Pactual Summer Internship",
+        "subtitle": "Jul 2023 - Aug 2023 | BTG Pactual",
+        "descriptionLines": [
+          "Deepened knowledge of high-fidelity components and prototyping.",
+          "Developed a method for my team to prototype interfaces more efficiently."
+        ],
+        "technologies": "Figma"
+      },
+      "trabalho3": {
+        "type": "Work",
+        "photoUrl": "/Professional/Pan.png",
+        "title": "Internal Audit - Banco Pan Regular Internship",
+        "subtitle": "Feb 2024 - Present | Banco Pan",
+        "descriptionLines": [
+          "Gained a macro view of how processes work in a large company.",
+          "Developed a system to manage audit processes and project monitoring."
+        ],
+        "technologies": "React, Next.js, Python, SQL"
+      },
+      "projeto11": {
+        "type": "Project",
+        "photoUrl": "/Professional/Edu.jpg",
+        "title": "Project Olympus - Online Olympic Classes",
+        "subtitle": "2021 | Independent Initiative",
+        "descriptionLines": [
+          "Organized with a group of friends and taught online classes for elementary school students focusing on educational olympiads.",
+          "The project reached several students and covered content from OBM, OBF, and similar competitions."
+        ]
+      },
+      "projeto1": {
+        "type": "Project",
+        "photoUrl": "/Professional/Unipar.jpg",
+        "title": "Employee Training Game - Unipar",
+        "subtitle": "Feb 2023 - Apr 2023 | inteli & UNIPAR",
+        "descriptionLines": [
+          "Developed a team-based game for training truck drivers transporting hazardous materials with Unipar (One of Brazil's largest chemical companies)."
+        ],
+        "technologies": "Godot, GDScript, Aseprite"
+      },
+      "projeto2": {
+        "type": "Project",
+        "photoUrl": "/Professional/Nova.jpg",
+        "title": "Platform to Combat Educational Gaps - Nova Escola",
+        "subtitle": "Apr 2023 - Jun 2023 | Inteli & Nova Escola",
+        "descriptionLines": [
+          "Platform that identifies learning gaps in students and generates personalized lesson plans, adapted to the individual needs of each student, empowering public school teachers to combat educational disparities."
+        ],
+        "technologies": "HTML5, CSS, JavaScript, Node.js, SQLite"
+      },
+      "projeto3": {
+        "type": "Project",
+        "photoUrl": "/Professional/CVM.jpg",
+        "title": "Predictive Model for FIDC Stability - CVM",
+        "subtitle": "Aug 2023 - Sep 2023 | Securities and Exchange Commission (CVM) & Inteli",
+        "descriptionLines": [
+          "The project focused on using analysis and predictive modeling techniques to increase transparency and stability in the Brazilian capital market and predict instabilities in the FIDC (Credit Rights Investment Funds) market."
+        ],
+        "technologies": "Python, Pandas, Database, Data Analysis, Predictive Analytics"
+      },
+      "projeto10": {
+        "type": "Project",
+        "photoUrl": "/Professional/Froggy.png",
+        "title": "Froggy Bounce Game - Inteli Showcase",
+        "subtitle": "Oct 2023 - Nov 2023 | Inteli",
+        "descriptionLines": [
+          "Independently developed an infinite runner style game for an internal college competition.",
+          "Froggy Bounce was one of the highest-rated games at the Inteli Showcase 2023."
+        ],
+        "technologies": "Godot, GDScript, Pixel Art"
+      },
+      "projeto4": {
+        "type": "Project",
+        "photoUrl": "/Professional/atvos.webp",
+        "title": "Intelligent Input Monitoring - Atvos",
+        "subtitle": "Oct 2023 - Dec 2023 | Atvos & Inteli",
+        "descriptionLines": [
+          "Developed an IoT solution to monitor inputs and parts in Atvos' transportation.",
+          "Increased security and efficiency with data collection and dashboards."
+        ],
+        "technologies": "Internet of Things, Arduino, C#, Dashboards"
+      },
+      "projeto5": {
+        "type": "Project",
+        "photoUrl": "/Professional/images.png",
+        "title": "Emergency Kit Automation - Hospital Sírio-Libanês",
+        "subtitle": "Feb 2024 - Apr 2024 | Hospital Sírio-Libanês & Inteli",
+        "descriptionLines": [
+          "Created an MVP with a robotic arm to assemble emergency kits automatically.",
+          "Implemented the front-end synchronized with the robot and contributed to the system's interface and sensors."
+        ],
+        "technologies": "Arduino, Front-end, UI, Sensors, Automation"
+      },
+      "projeto6": {
+        "type": "Project",
+        "photoUrl": "/Professional/atvos.webp",
+        "title": "Computer Vision for Autonomous Cleaning - Atvos",
+        "subtitle": "Apr 2024 - Jun 2024 | Atvos & Inteli",
+        "descriptionLines": [
+          "Developed a system with TurtleBot 3 and a camera to detect blockages in machines.",
+          "Trained a YOLO model and created navigation algorithms for automated cleaning."
+        ],
+        "technologies": "YOLO, Computer Vision, TurtleBot 3, Navigation Algorithms"
+      },
+      "projeto7": {
+        "type": "Project",
+        "photoUrl": "/Professional/Volks.jpg",
+        "title": "AI for Predictive Vehicle Inspection - Volkswagen",
+        "subtitle": "Aug 2024 - Oct 2024 | Volkswagen & Inteli",
+        "descriptionLines": [
+          "Created an AI to predict failures in road tests and optimize inspections.",
+          "Used historical data to anticipate problems and reduce operational costs."
+        ],
+        "technologies": "Artificial Intelligence, Machine Learning, Predictive Models"
+      },
+      "projeto8": {
+        "type": "Project",
+        "photoUrl": "/Professional/IBM.jpg",
+        "title": "Autonomous Robot for Anamnesis - IBM",
+        "subtitle": "Oct 2024 - Dec 2024 | IBM & Inteli",
+        "descriptionLines": [
+          "Developed an autonomous robot to collect patient anamnesis using OpenAI's AI.",
+          "Implemented front-end and back-end in a full-stack architecture integrated with TurtleBot 3."
+        ],
+        "technologies": "Python, TypeScript, OpenAI API, TurtleBot 3, ROS"
+      },
+      "projeto9": {
+        "type": "Project",
+        "photoUrl": "/Professional/Prodesp.png",
+        "title": "Unified Public Queue System - Prodesp",
+        "subtitle": "Feb 2025 - Apr 2025 | Prodesp & Inteli",
+        "descriptionLines": [
+          "Created a web and physical platform for issuing queue tickets in public services.",
+          "Integrated GOV data to allow online tickets and estimate waiting times."
+        ],
+        "technologies": "Web Fullstack, GOV API, System Integration, UX"
+      },
+      "Projeto10": {
+        "type": "Project",
+        "photoUrl": "/Professional/Calcifer.png",
+        "title": "Founding of Calcifer Studios",
+        "subtitle": "Feb 2025 - Present 2025 | Role: Director and Project Lead",
+        "descriptionLines": [
+          "Creation and leadership of an independent digital game studio.",
+          "Project under development with the goal of turning a dream into reality."
+        ]
+      },
+      "outros2": {
+        "type": "Others",
+        "photoUrl": "/Academic/Carrosel/F7.jpg",
+        "title": "Mentorship with Erick Arruda - BTG Pactual",
+        "subtitle": "Event: BTG Pactual Mentorship | Executive Director",
+        "descriptionLines": [
+          "Mentorship focused on leadership, management, strategic vision, and entrepreneurship."
+        ]
+      },
+      "outros4": {
+        "type": "Others",
+        "photoUrl": "/Professional/rica.jpeg",
+        "title": "Mentorship with Ricardo Brandão - Skyone",
+        "subtitle": "Event: Fesa Croma Institute and YPO | CEO of Skyone",
+        "descriptionLines": [
+          "Mentorship on leadership, digital transformation, startup growth, and entrepreneurship."
+        ]
+      },
+      "outros3": {
+        "type": "Others",
+        "photoUrl": "/Professional/bia.jpeg",
+        "title": "Mentorship with Bianca Sousa - Bloomberg",
+        "subtitle": "Event: Bloomberg Mentorship | Executive Role",
+        "descriptionLines": [
+          "Mentorship on career and new opportunities."
+        ]
+      },
+      "outros1": {
+        "type": "Others",
+        "photoUrl": "/Professional/tol.jpg",
+        "title": "Mentorship with Marcelo Toledo - Learn to Fly",
+        "subtitle": "Event: Learn to Fly | Director at Salesforce",
+        "descriptionLines": [
+          "Mentorship on career, professional growth strategies, and personal development."
+        ]
       }
     }
   }

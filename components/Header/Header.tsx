@@ -31,7 +31,7 @@ const Header = () => {
               </button>
             </li>
             <li className={styles.navItem}>
-              <button onClick={() => handleScrollTo('profissional')} className={styles.navLinkButton}>
+              <button onClick={() => handleScrollTo('experiencia-profissional-detalhada')} className={styles.navLinkButton}>
                 {t('Header.nav_professional')}
               </button>
             </li>

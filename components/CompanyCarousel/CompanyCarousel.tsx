@@ -74,7 +74,7 @@ const CompanyCarousel = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="profissional" className={styles.carouselSection}>
+    <section id="empresas-parceiras" className={styles.carouselSection}>
       <div className="section-content-container">
         <h2 className={styles.sectionTitle}>{t('CompanyCarousel.sectionTitle')}</h2>
         <div className={styles.carouselViewport}>

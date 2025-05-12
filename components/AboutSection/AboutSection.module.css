@@ -149,12 +149,36 @@
 
 @media (max-width: 768px) {
   .mainTitle {
-    font-size: 30px; /* Reduzido */
+    font-size: 28px; /* Reduzido de 30px */
   }
   .topicTitle {
-    font-size: 24px; /* Reduzido */
+    font-size: 22px; /* Reduzido de 24px */
   }
   .topicText {
-    font-size: 15px; /* Reduzido */
+    font-size: 15px; /* Mantido, mas pode ser ajustado se necessário */
+  }
+}
+
+/* Nova Media Query para telas ainda menores */
+@media (max-width: 480px) {
+  .aboutSection {
+    padding: 16px 16px 48px 16px; /* Padding ainda menor */
+  }
+  .mainTitle {
+    font-size: 24px; /* Reduzido */
+    margin-bottom: 24px;
+  }
+  .topicTitle {
+    font-size: 20px; /* Reduzido */
+  }
+  .topicText {
+    font-size: 14px; /* Reduzido */
+  }
+  .topicsContainer {
+    gap: 48px; /* Espaçamento menor entre tópicos */
+  }
+  .topicItem.textLeft .topicImageContainer,
+  .topicItem.textRight .topicImageContainer {
+    max-width: 300px; /* Imagem um pouco menor em telas muito pequenas */
   }
 } 

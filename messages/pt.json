@@ -132,10 +132,10 @@
         "text": "Na nova escola, tudo começou a mudar. O menino que antes era isolado no fundo da sala, agora era referência em matemática. Passei a ser chamado pela professora para ajudar colegas com dificuldade e isso despertou em mim algo transformador: a confiança de que eu podia, sim, aprender e ensinar. \n\n Mas foi em 2017 que aconteceu o verdadeiro ponto de virada. Minha mãe, sempre acreditando em mim, me inscreveu no processo seletivo do Projeto Ismart, um programa que oferece bolsas de estudo para jovens de alto potencial, mas com poucas oportunidades. Depois de um rigoroso processo com cinco etapas, mais de 14 mil candidatos e apenas 20 vagas disponíveis... eu fui aprovado! \n\n Com isso, conquistei uma bolsa integral para estudar na melhor escola particular de Belo Horizonte. Uma oportunidade que, sem esse projeto, nunca teria estado ao meu alcance e que marcou o início de uma nova fase na minha vida. \n\n Foi ali que meu sonho de transformar minha realidade começou a tomar forma de verdade.",
         "imageAlt": "Certificados ou logos de plataformas de cursos"
       },
-        "conquistas-academicas": {
-          "title": "Sacrifícios e Conquistas",
-          "text": "Adaptar-me à nova escola de elite para a qual consegui uma bolsa pelo Ismart foi um grande desafio. As pessoas ao meu redor viviam uma realidade muito diferente da minha, o que tornou tudo ainda mais intenso. \n\n Durante dois anos, estudei em duas escolas ao mesmo tempo, acordava cedo para ir a uma, almoçava rapidamente e pegava o ônibus sozinho todos os dias até o centro da cidade, só voltando para casa tarde da noite, não sendo muito diferente no ensino médio que chegava a ser até mais intenso. \n\n Foi uma rotina puxada, mas cheia de propósito. Todo esse sacrifício valeu a pena: fiz muitos amigos, amadureci e descobri novas oportunidades. Uma delas foram as olimpíadas do conhecimento, onde tive a alegria de conquistar três medalhas de ouro e uma menção honrosa.",
-          "imageAlt": "Troféu ou imagem de um projeto bem-sucedido"
+      "conquistas-academicas": {
+        "title": "Sacrifícios e Conquistas",
+        "text": "Adaptar-me à nova escola de elite para a qual consegui uma bolsa pelo Ismart foi um grande desafio. As pessoas ao meu redor viviam uma realidade muito diferente da minha, o que tornou tudo ainda mais intenso. \n\n Durante dois anos, estudei em duas escolas ao mesmo tempo, acordava cedo para ir a uma, almoçava rapidamente e pegava o ônibus sozinho todos os dias até o centro da cidade, só voltando para casa tarde da noite, não sendo muito diferente no ensino médio que chegava a ser até mais intenso. \n\n Foi uma rotina puxada, mas cheia de propósito. Todo esse sacrifício valeu a pena: fiz muitos amigos, amadureci e descobri novas oportunidades. Uma delas foram as olimpíadas do conhecimento, onde tive a alegria de conquistar três medalhas de ouro e uma menção honrosa.",
+        "imageAlt": "Troféu ou imagem de um projeto bem-sucedido"
       },
       "universidade": {
         "title": "Vestibular e nova vida em São Paulo",
@@ -182,5 +182,220 @@
         "total": { "item": "TOTAL ESTIMADO" }
       }
     }
+  },
+  "ProfessionalExperienceSection": {
+    "mainTitle": "Experiência Profissional",
+    "categoryTypes": {
+      "trabalho": "Trabalho",
+      "projeto": "Projeto",
+      "outros": "Outros"
+    },
+    "categoryTitles": {
+      "trabalho": "Trabalhos",
+      "projeto": "Projetos",
+      "outros": "Outros"
+    },
+    "experiences": {
+      "trabalho1": {
+        "photoUrl": "/Professional/BTG.jpg",
+        "type": "Trabalho",
+        "title": "UX Designer - BTG Pactual  Estágio de Verão",
+        "subtitle": "Jan 2023 - Fev 2023 | BTG Pactual",
+        "descriptionLines": [
+          "Desenvolvimento de comnponents de alta fidelidade para o site do BTG Pactual.",
+          "Aprendi diveros conceitos de design de interface e experiência do usuário."
+        ],
+        "technologies": "Figma"
+      },
+      "trabalho2": {
+        "type": "Trabalho",
+        "photoUrl": "/Professional/BTG.jpg",
+        "title": "UX Designer - BTG Pactual  Estágio de Verão",
+        "subtitle": "Jul 2023 - Ago 2023 | BTG Pactual",
+        "descriptionLines": [
+          "Aprofundei conhecimentos sobre componentes e prototipagem de alta fidelidade.",
+          "Desenvolvi para meu time um metodo para prototipar interfaces de forma mais eficiente."
+        ],
+        "technologies": "Figma"
+      },
+      "trabalho3": {
+        "type": "Trabalho",
+        "photoUrl": "/Professional/Pan.png",
+        "title": "Auditoria Interna - Banco Pan  Estágio Regular",
+        "subtitle": "Fev 2024 - Atual | Banco Pan",
+        "descriptionLines": [
+          "Adquiri uma visão macro de como funciona os processos de uma empresa de grande porte.",
+          "Desenvolvi um sistema para gerenciar os processos de auditoria e acompanhamento de projetos."
+        ],
+        "technologies": "React, Next.js, Python, SQL"
+      },
+      "projeto11": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/Edu.jpg",
+        "title": "Projeto Olympus - Aulas olímpicas online",
+        "subtitle": "2021 | Iniciativa independente",
+        "descriptionLines": [
+          "Organizei junto com um grupo de amigos e ministramos aulas online para jovens do ensino fundamental com foco em olimpíadas educacionais.",
+          "O projeto atingiu diversos alunos e abordou conteúdos da OBM, OBF e similares."
+        ]
+      },
+
+      "projeto1": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/Unipar.jpg",
+        "title": "Jogo para treinamento de funcionários - Unipar",
+        "subtitle": "Fev 2023 - Abr 2023 | inteli & UNIPAR",
+        "descriptionLines": [
+          "Desenvolvi um jogo em equipe para treinamento de caminhoneiros de transporte de produtos perigosos juntos com a Unipar (Uma das maiores empresas de produtos químicos do Brasil)."
+        ],
+        "technologies": "Tecnologias: Godot, GDScript, Aseprite"
+      },
+      "projeto2": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/Nova.jpg",
+        "title": "Plataforma para combate à defasagem escolar - Nova Escola",
+        "subtitle": "Abr 2023 - Jun 2023 | Inteli & Nova Escola",
+        "descriptionLines": [
+          "Plataforma que identifica lacunas no aprendizado dos alunos e gera planos de aula personalizados, adaptados às necessidades individuais de cada estudante empoderarando professores da rede pública no combate à defasagem escolar."
+        ],
+        "technologies": "Tecnologias: HTML5, CSS, JavaScript, Node.js, SQLite"
+      },
+      "projeto3": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/CVM.jpg",
+        "title": "Modelo preditivo para estabilidade dos FIDCs - CVM",
+        "subtitle": "Ago 2023 - Set 2023 | Comissão de Valores Mobiliários & Inteli",
+        "descriptionLines": [
+          "O projeto teve como foco o uso de técnicas de análise e modelagem preditiva para aumentar a transparência e estabilidade do mercado de capitais brasileiro e prever instabilidades no mercado de FIDCs (Fundos de Investimento em Direitos Creditórios)."
+        ],
+        "technologies": "Python, Pandas, Banco de Dados, Análise de Dados, Analítica preditiva"
+      },
+
+      "projeto10": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/Froggy.png",
+        "title": "Jogo Froggy Bounce - Showcase Inteli",
+        "subtitle": "Out 2023 - Nov 2023 | Inteli",
+        "descriptionLines": [
+          "Desenvolvi sozinho um jogo estilo infinite runner para competição interna da faculdade.",
+          "Froggy Bounce foi um dos jogos mais bem avaliados do Showcase Inteli 2023."
+        ],
+        "technologies": "Tecnologias: Godot, GDScript, Pixel Art"
+      },
+
+      "projeto4": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/atvos.webp",
+        "title": "Monitoramento inteligente de insumos - Atvos",
+        "subtitle": "Out 2023 - Dez 2023 | Atvos & Inteli",
+        "descriptionLines": [
+          "Desenvolvi uma solução IoT para monitorar insumos e peças no transporte da Atvos.",
+          "Aumentamos a segurança e eficiência com coleta de dados e dashboards."
+        ],
+        "technologies": "Internet das Coisas, Arduino, C#, Dashboards"
+      },
+
+      "projeto5": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/images.png",
+        "title": "Automação de kits de emergência - Hospital Sírio-Libanês",
+        "subtitle": "Fev 2024 - Abr 2024 | Hospital Sírio-Libanês & Inteli",
+        "descriptionLines": [
+          "Criamos um MVP com braço robótico para montar kits de emergência de forma automatizada.",
+          "Implementei o front sincronizado ao robô e contribuí na interface e sensores do sistema."
+        ],
+        "technologies": "Arduino, Front-end, UI, Sensores, Automação"
+      },
+
+      "projeto6": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/atvos.webp",
+        "title": "Visão computacional para limpeza autônoma - Atvos",
+        "subtitle": "Abr 2024 - Jun 2024 | Atvos & Inteli",
+        "descriptionLines": [
+          "Desenvolvemos um sistema com TurtleBot 3 e câmera para detectar entupimentos em máquinas.",
+          "Treinamos um modelo YOLO e criamos algoritmos de navegação para limpeza automatizada."
+        ],
+        "technologies": "YOLO, Visão Computacional, TurtleBot 3, Algoritmos de Navegação"
+      },
+      "projeto7": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/Volks.jpg",
+        "title": "IA para inspeção preditiva de veículos - Volkswagen",
+        "subtitle": "Ago 2024 - Out 2024 | Volkswagen & Inteli",
+        "descriptionLines": [
+          "Criamos uma IA para prever falhas em testes de rodagem e otimizar inspeções.",
+          "Utilizamos dados históricos para antecipar problemas e reduzir custos operacionais."
+        ],
+        "technologies": "Inteligência Artificial, Machine Learning, Modelos Preditivos"
+      },
+      "projeto8": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/IBM.jpg",
+        "title": "Robô autônomo para anamnese - IBM",
+        "subtitle": "Out 2024 - Dez 2024 | IBM & Inteli",
+        "descriptionLines": [
+          "Desenvolvemos um robô autônomo para coletar anamnese de pacientes com IA da OpenAI.",
+          "Implementamos front e back em uma arquitetura fullstack integrada ao TurtleBot 3."
+        ],
+        "technologies": "Python, TypeScript, OpenAI API, TurtleBot 3, ROS"
+      },
+
+      "projeto9": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/Prodesp.png",
+        "title": "Sistema unificado de filas públicas - Prodesp",
+        "subtitle": "Fev 2025 - Abr 2025 | Prodesp & Inteli",
+        "descriptionLines": [
+          "Criamos uma plataforma web e física para retirada de senhas em serviços públicos.",
+          "Integramos dados do GOV para permitir senhas online e estimativa de tempo de espera."
+        ],
+        "technologies": "Web Fullstack, GOV API, Integração de Sistemas, UX"
+      },
+      "Projeto10": {
+        "type": "Projeto",
+        "photoUrl": "/Professional/Calcifer.png",
+        "title": "Fundação da Calcifer Studios",
+        "subtitle": "Fev 2025 - Atual 2025 |Função: Diretor e Líder de Projeto",
+        "descriptionLines": [
+          "Criação e liderança de um estúdio independente de jogos digitais.",
+          "Projeto em desenvolvimento com o objetivo de transformar um sonho em realidade."
+        ]
+      },
+      "outros2": {
+        "type": "Outros",
+        "photoUrl": "/Academic/Carrosel/F7.jpg",
+        "title": "Mentoria com Erick Arruda - BTG Pactual",
+        "subtitle": "Evento: Mentoria BTG Pactual | Diretor Executivo",
+        "descriptionLines": [
+          "Mentoria focada em liderança, gestão e visão estratégica e empreendedorismo."
+        ]
+      },
+      "outros4": {
+        "type": "Outros",
+        "photoUrl": "/Professional/rica.jpeg",
+        "title": "Mentoria com Ricardo Brandão - Skyone",
+        "subtitle": "Evento: Instituto Fesa Croma e YPO | CEO da Skyone",
+        "descriptionLines": [
+          "Mentoria sobre liderança, transformação digital, crescimento de startups e empreendedorismo."
+        ]
+      },
+      "outros3": {
+        "type": "Outros",
+        "photoUrl": "/Professional/bia.jpeg",
+        "title": "Mentoria com Bianca Sousa - Bloomberg",
+        "subtitle": "Evento: Mentoria Bloomberg | Cargo Executivo",
+        "descriptionLines": ["Mentoria sobre carreira e novas oportunidades."]
+      },
+      "outros1": {
+        "type": "Outros",
+        "photoUrl": "/Professional/tol.jpg",
+        "title": "Mentoria com Marcelo Toledo - Learn to Fly",
+        "subtitle": "Evento: Learn to Fly | Diretor na Salesforce",
+        "descriptionLines": [
+          "Mentoria sobre carreira, estratégias de crescimento profissional e desenvolvimento pessoal."
+        ]
+      }
+    }
   }
-} 
+}

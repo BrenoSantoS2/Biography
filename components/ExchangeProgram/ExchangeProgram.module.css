@@ -104,6 +104,7 @@
   color: #02330B; /* Cor do Figma (fill_Q2PDO6 para Copiar Chave Pix) */
   /* No Figma, "Arrecadado" (5:746) tem cor ZR8FXQ (#000000), vamos padronizar por ora */
   margin: 0 0 12px 0; /* Reduzido de 16px */
+  text-align: center; /* Adicionado para garantir centralização */
 }
 
 .pixButton {
@@ -174,6 +175,7 @@
   color: #02330B; /* Cor do Figma (fill_ZR8FXQ) */
   margin: 0 0 32px 0;
   padding-left: 64px; /* Alinhado com o padding da contentArea */
+  text-align: left; /* Adicionado para garantir o padrão */
 }
 
 .costsTable {
@@ -238,57 +240,66 @@
 
 @media (max-width: 768px) {
   .exchangeHero {
-    min-height: auto;
-    padding: 32px;
+    min-height: 380px; /* Reduzir altura mínima */
   }
   .exchangeTitle {
-    font-size: 48px;
+    font-size: 30px; /* Reduzido de 36px */
   }
   .exchangeLocation {
-    font-size: 32px;
+    font-size: 20px; /* Reduzido de 24px */
+    text-align: center;
+    align-self: center;
   }
   .contentArea {
-    padding: 24px 32px;
+    padding: 32px 16px; /* Reduzido */
   }
   .pixTitle, .progressTitle {
-    font-size: 28px;
+    font-size: 24px; /* Reduzido de 28px */
+    /* text-align: center; já herdado ou definido acima */
   }
   .pixButton {
-    font-size: 20px;
+    font-size: 16px; /* Reduzido */
+    padding: 8px 16px;
   }
   .tableTitle {
-    font-size: 28px;
-    padding-left: 16px;
+    font-size: 26px; /* Reduzido de 30px */
+    padding-left: 0;
+    text-align: center;
+  }
+  .costsTableContainer {
+    padding: 24px 0;
   }
   .costsTable {
-    width: calc(100% - 32px);
-    font-size: 13px;
+    width: calc(100% - 32px); /* Considerando novo padding da contentArea */
   }
   .costsTable th, .costsTable td {
     padding: 8px;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 480px) {
   .exchangeTitle {
-    font-size: 36px;
+    font-size: 24px; /* Reduzido de 28px */
   }
   .exchangeLocation {
-    font-size: 24px;
+    font-size: 18px; /* Reduzido de 20px */
   }
   .pixTitle, .progressTitle {
-    font-size: 24px;
+    font-size: 20px; /* Reduzido de 22px */
   }
   .pixButton {
-    font-size: 16px;
+    font-size: 15px;
   }
   .progressBar {
-    font-size: 12px;
+    font-size: 10px; /* Reduzido */
+    height: 28px;
   }
   .tableTitle {
-    font-size: 22px;
+    font-size: 22px; /* Reduzido de 24px */
   }
    .costsTable th, .costsTable td {
     font-size: 12px;
+    padding: 6px;
   }
 } 

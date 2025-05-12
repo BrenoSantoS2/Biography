@@ -33,7 +33,7 @@
 .experienceItemContent {
   padding: 20px; /* Padding para o conteúdo textual */
   text-align: left;
-  flex-grow: 1; /* Faz o conteúdo textual ocupar o espaço restante no card */
+  height: auto; /* Faz o conteúdo textual ocupar o espaço restante no card */
   display: flex;
   flex-direction: column;
 }
@@ -88,4 +88,27 @@
 /* Remover estilos não mais necessários */
 /* .professionalExperienceSection h2 { ... } foi para ContentCarousel.module.css */
 /* .experienceCategory { ... } foi removido pois o carrossel lida com o agrupamento */
-/* .experienceCategory h3 { ... } foi removido */ 
+/* .experienceCategory h3 { ... } foi removido */
+
+/* Media Query para cards em telas muito pequenas */
+@media (max-width: 420px) {
+  .experienceItem {
+    width: calc(100vw - 40px); /* Para ocupar quase toda a largura da tela, considerando paddings do carrossel */
+    /* Se o ContentCarousel tiver paddings laterais de 10px (total 20px) nessa resolução, 
+       e quisermos mais 10px de margem de cada lado do card visível, então 20px + 20px = 40px */
+  }
+
+  .experienceItemContent h4 {
+    font-size: 1.1rem; /* Leve redução para caber melhor */
+  }
+
+  .experienceItemContent p,
+  .experienceItemContent ul,
+  .experienceItemContent a {
+    font-size: 0.85rem; /* Leve redução para caber melhor */
+  }
+
+  .experienceItemPhoto {
+    height: 160px; /* Reduzir altura da foto também */
+  }
+} 

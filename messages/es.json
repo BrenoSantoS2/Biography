@@ -16,12 +16,12 @@
     "topics": {
       "sobre-mim": {
         "title": "Un Poco Sobre Mí",
-        "text": "Desde temprana edad, mi curiosidad y ganas de aprender me han impulsado a buscar nuevos desafíos y conocimientos. Me apasiona la tecnología y la innovación, siempre en busca de soluciones creativas para problemas complejos. Creo en el poder de la colaboración y el aprendizaje continuo como herramientas para el crecimiento personal y profesional.",
+        "text": "¡Mucho gusto! Mi nombre es Breno Santos, tengo 19 años y soy de Belo Horizonte, Minas Gerais, Brasil. \n\n A lo largo de mi vida, he enfrentado muchos desafíos, pero también he alcanzado hitos importantes que me llenan de orgullo. Entre ellos, conseguí una beca en una escuela de excelencia en mi ciudad natal, luego una beca completa para cursar la universidad y vivir en São Paulo y, más recientemente, ¡obtuve una plaza de intercambio para Bélgica!\n\nEstos logros son solo algunos capítulos de mi historia. Si quieres conocer más de cerca mi camino, mis sueños y cómo puedes formar parte de esto, sigue leyendo los temas a continuación. Prometo contarlo todo con el corazón abierto.",
         "imageAlt": "Foto de Breno Santos"
       },
       "familia": {
         "title": "Familia y Valores",
-        "text": "Mi familia es mi principal pilar, transmitiéndome valores como el respeto, la perseverancia y la importancia de la educación. Ellos me inspiran a seguir mis sueños y a nunca rendirme ante los obstáculos. Estos principios guían mis acciones y decisiones en todas las áreas de mi vida.",
+        "text": "Mi madre, Irene, profesora de portugués y correctora de redacciones, fue la primera en sembrar en mí la semilla de la educación como herramienta de transformación. Desde muy joven, me enseñó que el estudio puede abrir puertas que parecen imposibles de alcanzar. Y, aun con dificultades, siempre se sacrificó para que yo tuviera acceso alas mejores oportunidades. Hoy, con el corazón lleno de gratitud, reconozco cada uno de sus esfuerzos. \n\n Fue con mi padre, Rodrigo, técnico de TI y responsable del mantenimiento de computadoras en nuestro barrio, que di mis primeros pasos en el mundo de la tecnología, un área que, años después, cambiaría el rumbo de mi vida. \n\n Y no puedo dejar de mencionar a mi querido abuelo, Milton, que siempre creyó en mi potencial. Aun con las limitaciones de la edad y los recursos, hizo todo lo que estuvo a su alcance para apoyar mi crecimiento. Su amor se traducía en pequeños gestos, que en el fondo siempre fueron gigantes. \n\n Y agradezco a muchos otros a quienes no pude agradecer en este pequeño espacio, pues mi familia es mi origen, mi cimiento. Todo lo que he logrado hasta ahora tiene un pedacito de ellos.",
         "imageAlt": "Imagen representando familia y unión"
       },
       "infancia": {
@@ -32,42 +32,77 @@
     }
   },
   "CompanyCarousel": {
-    "sectionTitle": "Trayectoria Profesional",
+    "sectionTitle": "Algunos lugares donde ya he estado",
     "companies": {
       "btg1": {
-        "name": "BTG Pactual (Mentoría)",
-        "description": "Participé en un programa de mentoría enfocado en el desarrollo de carrera e insights sobre el mercado financiero, con el acompañamiento de profesionales experimentados de BTG Pactual.",
+        "name": "BTG Pactual",
+        "description": "Mentoría de 6 meses",
         "logoAlt": "Logo BTG Pactual"
       },
       "mckinsey": {
-        "name": "McKinsey & Company (Formación)",
-        "description": "Formación intensiva en consultoría estratégica, abordando metodologías para la resolución de problemas complejos, análisis de datos y desarrollo de presentaciones de impacto.",
+        "name": "McKinsey & Company",
+        "description": "Capacitación en gestión",
         "logoAlt": "Logo McKinsey & Company"
       },
       "btg2": {
-        "name": "BTG Pactual (Prácticas de UX Design)",
-        "description": "Trabajé en dos programas de prácticas de UX Design, colaborando en el desarrollo de soluciones digitales innovadoras para el sector financiero y aplicando principios de diseño centrado en el usuario.",
+        "name": "BTG Pactual",
+        "description": "2 pasantías de verano en Diseño UX",
         "logoAlt": "Logo BTG Pactual"
       },
       "bancopan": {
-        "name": "Banco Pan (Auditoría Interna)",
-        "description": "Prácticas en el área de Auditoría Interna, donde desarrollé habilidades analíticas y de evaluación de riesgos y controles internos en una institución financiera.",
+        "name": "Banco Pan",
+        "description": "Pasantía regular en Auditoría Interna",
         "logoAlt": "Logo Banco Pan"
       },
       "bloomberg": {
-        "name": "Bloomberg (Mentoría)",
-        "description": "Programa de mentoría de seis meses enfocado en tecnología para el mercado financiero, con acceso a insights sobre las herramientas y plataformas de Bloomberg.",
+        "name": "Bloomberg",
+        "description": "Mentoría de 6 meses",
         "logoAlt": "Logo Bloomberg"
       },
       "salesforce": {
-        "name": "Salesforce (Mentoría)",
-        "description": "Mentoría de seis meses con foco en CRM y tecnologías Salesforce, explorando el ecosistema de la plataforma y sus aplicaciones para la optimización de procesos de negocio.",
+        "name": "Salesforce",
+        "description": "Mentoría de seis meses",
         "logoAlt": "Logo Salesforce"
       },
       "foursummit": {
-        "name": "Four Summit (Conferencia)",
-        "description": "Invitado a participar como oyente en la conferencia Four Summit, un evento enfocado en innovación, tecnología y emprendimiento, con ponencias de grandes figuras del mercado.",
+        "name": "Four Summit",
+        "description": "Invitado a la conferencia Four Summit",
         "logoAlt": "Logo Four Summit"
+      },
+      "ismart": {
+        "name": "Ismart",
+        "description": "Becario y alumno destacado",
+        "logoAlt": "Logo Ismart"
+      },
+      "fundaçãoEstudar": {
+        "name": "Fundação Estudar",
+        "description": "2x Invitado a conferencias (Innovación/Finanzas)",
+        "logoAlt": "Logo Fundação Estudar"
+      },
+      "amazon": {
+        "name": "Amazon",
+        "description": "Invitado a SpeedMentoring",
+        "logoAlt": "Logo Amazon"
+      },
+      "skyone": {
+        "name": "Skyone",
+        "description": "Mentoría de 6 meses",
+        "logoAlt": "Logo Skyone"
+      },
+      "lala": {
+        "name": "Latam Leadership Academy",
+        "description": "Considerado uno de los futuros líderes de América Latina",
+        "logoAlt": "Logo Lala"
+      },
+      "inteli": {
+        "name": "Inteli",
+        "description": "Becario y alumno destacado",
+        "logoAlt": "Logo Inteli"
+      },
+      "gamelab": {
+        "name": "Inteli GameLab",
+        "description": "Director de Recursos Humanos",
+        "logoAlt": "Logo GameLab"
       }
     }
   },
@@ -93,19 +128,34 @@
     "mainTitle": "Formación Académica",
     "topics": {
       "academico-geral": {
-        "title": "Grado en Ingeniería de Software",
-        "text": "Actualmente cursando Ingeniería de Software, con enfoque en el desarrollo de sistemas robustos y escalables, aplicando las mejores prácticas de ingeniería y metodologías ágiles.",
+        "title": "Comienzo de la Jornada",
+        "text": "Mi trayectoria académica comenzó de forma turbulenta. En los primeros años de la enseñanza fundamental, estudié en una escuela pública de mi barrio. Era muy joven, pero ya sentía el peso de la exclusión. Sufría acoso por parte de compañeros y, lo que más me marcó, incluso de profesores. Me colocaron al fondo de la clase, etiquetado como 'alumno tonto', por tener en ese momento dificultades de lectura. \n\n Cuando mis padres descubrieron lo que estaba sucediendo, se indignaron. Con mucho esfuerzo y sacrificio, reunieron lo que pudieron y me trasladaron a una pequeña escuela privada de la misma región. Fue en esta nueva escuela donde algo comenzó a despertar en mí: el interés por las matemáticas y una curiosidad insaciable por aprender contenidos que me llamaban la atención. Y por primera vez, me sentí más seguro e incluido en un lugar donde era bienvenido. \n\n Ese fue el punto de inflexión. A partir de ahí, cada paso en los estudios pasó a tener un nuevo significado: no era solo sobre exámenes y lecciones, sino sobre hacer algo que me fascinaba.",
         "imageAlt": "Símbolo o imagen representando Ingeniería de Software"
       },
       "cursos-extras": {
-        "title": "Cursos Complementarios y Certificaciones",
-        "text": "Busco constantemente mejorar mis conocimientos a través de cursos en línea, talleres y certificaciones en áreas como desarrollo web y móvil, computación en la nube e inteligencia artificial.",
+        "title": "¡Reconocimiento!",
+        "text": "En la nueva escuela, todo comenzó a cambiar. El niño que antes estaba aislado al fondo de la clase, ahora era un referente en matemáticas. La profesora comenzó a llamarme para ayudar a los compañeros con dificultades y eso despertó en mí algo transformador: la confianza de que sí podía aprender y enseñar. \n\n Pero fue en 2017 cuando ocurrió el verdadero punto de inflexión. Mi madre, siempre creyendo en mí, me inscribió en el proceso de selección del Proyecto Ismart, un programa que ofrece becas de estudio para jóvenes de alto potencial, pero con pocas oportunidades. Después de un riguroso proceso de cinco etapas, más de 14 mil candidatos y solo 20 plazas disponibles... ¡fui aprobado! \n\n Con esto, conquisté una beca integral para estudiar en la mejor escuela privada de Belo Horizonte. Una oportunidad que, sin este proyecto, nunca habría estado a mi alcance y que marcó el inicio de una nueva fase en mi vida. \n\n Fue allí donde mi sueño de transformar mi realidad comenzó a tomar forma de verdad.",
         "imageAlt": "Certificados o logos de plataformas de cursos"
       },
       "conquistas-academicas": {
-        "title": "Proyectos y Logros Académicos",
-        "text": "Participación en proyectos de investigación, desarrollo de aplicaciones prácticas y hackatones, donde pude aplicar los conocimientos adquiridos y colaborar en equipo para resolver desafíos reales.",
+        "title": "Sacrificios y Logros",
+        "text": "Adaptarme a la nueva escuela de élite para la que conseguí una beca a través de Ismart fue un gran desafío. Las personas a mi alrededor vivían una realidad muy diferente a la mía, lo que hizo todo aún más intenso. \n\n Durante dos años, estudié en dos escuelas al mismo tiempo, me levantaba temprano para ir a una, almorzaba rápidamente y tomaba el autobús solo todos los días hasta el centro de la ciudad, regresando a casa solo tarde en la noche. No fue muy diferente en la enseñanza media, que llegaba a ser incluso más intensa. \n\n Fue una rutina dura, pero llena de propósito. Todo este sacrificio valió la pena: hice muchos amigos, maduré y descubrí nuevas oportunidades. Una de ellas fueron las olimpiadas del conocimiento, donde tuve la alegría de conquistar tres medallas de oro y una mención honorífica.",
         "imageAlt": "Trofeo o imagen de un proyecto exitoso"
+      },
+      "universidade": {
+        "title": "Examen de Ingreso y Nueva Vida en São Paulo",
+        "text": "Cada año, la rutina se volvía más exigente. En el tercer año de la enseñanza media, llegué a mi límite: tenía clases de lunes a sábado, salía de casa a las 4:30 de la mañana y solo regresaba después de las 7 de la noche. Todas las semanas había exámenes, además de simulacros del Enem que ponían a prueba no solo mis conocimientos, sino también mi resistencia emocional. \n\n Sinceramente, hubo momentos en los que pensé que no aguantaría. Pero todo este sacrificio tuvo su recompensa: fui aprobado directamente de la enseñanza media para la universidad, con derecho a una beca de estudios integral. Esto me permitió mudarme a São Paulo y estudiar en una de las mejores universidades de tecnología del país, Inteli. \n\n En aquel entonces, aun teniendo que dejar todo lo que conocía atrás y enfrentarme a una ciudad nueva, totalmente diferente y lejos de casa, estaba listo para abrazar el mundo. Encaré esta nueva fase solo, pero con coraje, voluntad y el mismo espíritu de lucha que me trajo hasta aquí. Más que nunca, decidí ir en busca de otra oportunidad transformadora.",
+        "imageAlt": "Imagen representando Inteli - Instituto de Tecnología y Liderazgo"
+      },
+      "universidade2": {
+        "title": "Universidad",
+        "text": "En la universidad, maduré como nunca antes. El modelo de enseñanza basado en proyectos me transformó profundamente, enseñándome no solo la parte técnica, sino también cómo tratar con personas, trabajar en equipo y llevar ideas del papel a la realidad. \n\n Hasta ahora, he desarrollado más de 10 proyectos reales para grandes empresas como IBM, Volkswagen, Hospital Sírio-Libanês, entre otras. Además, asumí la dirección de Recursos Humanos en una entidad estudiantil, donde pude aplicar en la práctica todo lo que he venido aprendiendo sobre liderazgo y gestión de personas. \n\n También tuve la oportunidad de participar en eventos en las oficinas de las mayores empresas del mundo, como Google y Amazon, siendo reconocido como un futuro líder en programas como LALA (Latin American Leadership Academy), Ismart y Fundação Estudar. Cada una de estas experiencias reforzó mi propósito y me demostró que estoy en el camino correcto.",
+        "imageAlt": "Imagen representando Inteli - Instituto de Tecnología y Liderazgo"
+      },
+      "intercambio": {
+        "title": "Oportunidad de Intercambio",
+        "text": "Recientemente, conquisté una nueva oportunidad que representa el próximo gran paso en mi trayectoria académica y personal: fui aprobado en el programa de intercambio de mi universidad. Mi desempeño fue tan destacado que, a diferencia de la mayoría de los alumnos, pude elegir mi destino, algo raro, ya que normalmente es la propia universidad quien lo define. \n\n Entre opciones como Myongji, en Corea del Sur, Saxion University, en Holanda, y Thomas More, en Bélgica, elegí Bélgica por creer que será el entorno ideal para mi desarrollo como profesional y teniendo en cuenta mi madurez. \n\n Sin embargo, aunque conseguí una beca que cubre las tasas de matrícula de la universidad de destino, los demás costos, como alojamiento, alimentación y transporte, siguen siendo una barrera. Por eso, estoy buscando apoyo para hacer posible este sueño. Más que un viaje, este intercambio es una oportunidad para transformar mi futuro y, con tu ayuda, puede hacerse realidad.",
+        "imageAlt": "Imagen representando Thomas More University of Applied Sciences"
       }
     }
   },
@@ -135,6 +185,219 @@
         "alimentacao": { "item": "Alimentación y Costos Básicos (5 meses)" },
         "taxas": { "item": "Tasas Universitarias y Solicitud de Visa" },
         "total": { "item": "TOTAL ESTIMADO" }
+      }
+    }
+  },
+  "ProfessionalExperienceSection": {
+    "mainTitle": "Experiencia Profesional",
+    "categoryTypes": {
+      "trabalho": "Trabajo",
+      "projeto": "Proyecto",
+      "outros": "Otros"
+    },
+    "categoryTitles": {
+      "trabalho": "Trabajos",
+      "projeto": "Proyectos",
+      "outros": "Otros"
+    },
+    "technologiesLabel": "Tecnologías",
+    "seeMoreLabel": "Ver Más",
+    "experiences": {
+      "trabalho1": {
+        "type": "Trabajo",
+        "photoUrl": "/Professional/BTG.jpg",
+        "title": "Diseñador UX - BTG Pactual Prácticas de Verano",
+        "subtitle": "Ene 2023 - Feb 2023 | BTG Pactual",
+        "descriptionLines": [
+          "Desarrollo de componentes de alta fidelidad para el sitio web de BTG Pactual.",
+          "Aprendí diversos conceptos de diseño de interfaz y experiencia de usuario."
+        ],
+        "technologies": "Figma"
+      },
+      "trabalho2": {
+        "type": "Trabajo",
+        "photoUrl": "/Professional/BTG.jpg",
+        "title": "Diseñador UX - BTG Pactual Prácticas de Verano",
+        "subtitle": "Jul 2023 - Ago 2023 | BTG Pactual",
+        "descriptionLines": [
+          "Profundicé conocimientos sobre componentes y prototipado de alta fidelidad.",
+          "Desarrollé para mi equipo un método para prototipar interfaces de forma más eficiente."
+        ],
+        "technologies": "Figma"
+      },
+      "trabalho3": {
+        "type": "Trabajo",
+        "photoUrl": "/Professional/Pan.png",
+        "title": "Auditoría Interna - Banco Pan Prácticas Regulares",
+        "subtitle": "Feb 2024 - Actual | Banco Pan",
+        "descriptionLines": [
+          "Adquirí una visión macro de cómo funcionan los procesos en una empresa grande.",
+          "Desarrollé un sistema para gestionar procesos de auditoría y seguimiento de proyectos."
+        ],
+        "technologies": "React, Next.js, Python, SQL"
+      },
+      "projeto11": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/Edu.jpg",
+        "title": "Proyecto Olympus - Clases Olímpicas Online",
+        "subtitle": "2021 | Iniciativa Independiente",
+        "descriptionLines": [
+          "Organicé con un grupo de amigos e impartimos clases online para estudiantes de primaria enfocadas en olimpiadas educativas.",
+          "El proyecto alcanzó a varios estudiantes y cubrió contenido de OBM, OBF y competencias similares."
+        ]
+      },
+      "projeto1": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/Unipar.jpg",
+        "title": "Juego de Capacitación para Empleados - Unipar",
+        "subtitle": "Feb 2023 - Abr 2023 | inteli & UNIPAR",
+        "descriptionLines": [
+          "Desarrollé un juego en equipo para la capacitación de camioneros que transportan materiales peligrosos con Unipar (Una de las mayores empresas químicas de Brasil)."
+        ],
+        "technologies": "Godot, GDScript, Aseprite"
+      },
+      "projeto2": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/Nova.jpg",
+        "title": "Plataforma para Combatir Brechas Educativas - Nova Escola",
+        "subtitle": "Abr 2023 - Jun 2023 | Inteli & Nova Escola",
+        "descriptionLines": [
+          "Plataforma que identifica brechas de aprendizaje en los estudiantes y genera planes de lecciones personalizados, adaptados a las necesidades individuales de cada estudiante, empoderando a los maestros de escuelas públicas para combatir las disparidades educativas."
+        ],
+        "technologies": "HTML5, CSS, JavaScript, Node.js, SQLite"
+      },
+      "projeto3": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/CVM.jpg",
+        "title": "Modelo Predictivo para la Estabilidad de los FIDC - CVM",
+        "subtitle": "Ago 2023 - Sep 2023 | Comisión de Valores Mobiliarios (CVM) & Inteli",
+        "descriptionLines": [
+          "El proyecto se centró en el uso de técnicas de análisis y modelado predictivo para aumentar la transparencia y estabilidad en el mercado de capitales brasileño y predecir inestabilidades en el mercado de FIDC (Fondos de Inversión en Derechos de Crédito)."
+        ],
+        "technologies": "Python, Pandas, Base de Datos, Análisis de Datos, Analítica Predictiva"
+      },
+      "projeto10": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/Froggy.png",
+        "title": "Juego Froggy Bounce - Showcase Inteli",
+        "subtitle": "Oct 2023 - Nov 2023 | Inteli",
+        "descriptionLines": [
+          "Desarrollé de forma independiente un juego estilo infinite runner para una competencia interna de la universidad.",
+          "Froggy Bounce fue uno de los juegos mejor valorados en el Showcase Inteli 2023."
+        ],
+        "technologies": "Godot, GDScript, Pixel Art"
+      },
+      "projeto4": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/atvos.webp",
+        "title": "Monitoreo Inteligente de Insumos - Atvos",
+        "subtitle": "Oct 2023 - Dic 2023 | Atvos & Inteli",
+        "descriptionLines": [
+          "Desarrollé una solución IoT para monitorear insumos y piezas en el transporte de Atvos.",
+          "Aumentamos la seguridad y eficiencia con recolección de datos y dashboards."
+        ],
+        "technologies": "Internet de las Cosas, Arduino, C#, Dashboards"
+      },
+      "projeto5": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/images.png",
+        "title": "Automatización de Kits de Emergencia - Hospital Sírio-Libanês",
+        "subtitle": "Feb 2024 - Abr 2024 | Hospital Sírio-Libanês & Inteli",
+        "descriptionLines": [
+          "Creamos un MVP con un brazo robótico para ensamblar kits de emergencia automáticamente.",
+          "Implementé el front-end sincronizado con el robot y contribuí a la interfaz y sensores del sistema."
+        ],
+        "technologies": "Arduino, Front-end, UI, Sensores, Automatización"
+      },
+      "projeto6": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/atvos.webp",
+        "title": "Visión por Computadora para Limpieza Autónoma - Atvos",
+        "subtitle": "Abr 2024 - Jun 2024 | Atvos & Inteli",
+        "descriptionLines": [
+          "Desarrollamos un sistema con TurtleBot 3 y una cámara para detectar obstrucciones en máquinas.",
+          "Entrenamos un modelo YOLO y creamos algoritmos de navegación para limpieza automatizada."
+        ],
+        "technologies": "YOLO, Visión por Computadora, TurtleBot 3, Algoritmos de Navegación"
+      },
+      "projeto7": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/Volks.jpg",
+        "title": "IA para Inspección Predictiva de Vehículos - Volkswagen",
+        "subtitle": "Ago 2024 - Oct 2024 | Volkswagen & Inteli",
+        "descriptionLines": [
+          "Creamos una IA para predecir fallas en pruebas de carretera y optimizar inspecciones.",
+          "Utilizamos datos históricos para anticipar problemas y reducir costos operativos."
+        ],
+        "technologies": "Inteligencia Artificial, Machine Learning, Modelos Predictivos"
+      },
+      "projeto8": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/IBM.jpg",
+        "title": "Robot Autónomo para Anamnesis - IBM",
+        "subtitle": "Oct 2024 - Dic 2024 | IBM & Inteli",
+        "descriptionLines": [
+          "Desarrollamos un robot autónomo para recolectar anamnesis de pacientes utilizando la IA de OpenAI.",
+          "Implementamos front-end y back-end en una arquitectura full-stack integrada con TurtleBot 3."
+        ],
+        "technologies": "Python, TypeScript, OpenAI API, TurtleBot 3, ROS"
+      },
+      "projeto9": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/Prodesp.png",
+        "title": "Sistema Unificado de Filas Públicas - Prodesp",
+        "subtitle": "Feb 2025 - Abr 2025 | Prodesp & Inteli",
+        "descriptionLines": [
+          "Creamos una plataforma web y física para la emisión de tickets de fila en servicios públicos.",
+          "Integramos datos de GOV para permitir tickets online y estimar tiempos de espera."
+        ],
+        "technologies": "Web Fullstack, GOV API, Integración de Sistemas, UX"
+      },
+      "Projeto10": {
+        "type": "Proyecto",
+        "photoUrl": "/Professional/Calcifer.png",
+        "title": "Fundación de Calcifer Studios",
+        "subtitle": "Feb 2025 - Actual 2025 | Rol: Director y Líder de Proyecto",
+        "descriptionLines": [
+          "Creación y liderazgo de un estudio de juegos digitales independiente.",
+          "Proyecto en desarrollo con el objetivo de convertir un sueño en realidad."
+        ]
+      },
+      "outros2": {
+        "type": "Otros",
+        "photoUrl": "/Academic/Carrosel/F7.jpg",
+        "title": "Mentoría con Erick Arruda - BTG Pactual",
+        "subtitle": "Evento: Mentoría BTG Pactual | Director Ejecutivo",
+        "descriptionLines": [
+          "Mentoría enfocada en liderazgo, gestión, visión estratégica y emprendimiento."
+        ]
+      },
+      "outros4": {
+        "type": "Otros",
+        "photoUrl": "/Professional/rica.jpeg",
+        "title": "Mentoría con Ricardo Brandão - Skyone",
+        "subtitle": "Evento: Instituto Fesa Croma y YPO | CEO de Skyone",
+        "descriptionLines": [
+          "Mentoría sobre liderazgo, transformación digital, crecimiento de startups y emprendimiento."
+        ]
+      },
+      "outros3": {
+        "type": "Otros",
+        "photoUrl": "/Professional/bia.jpeg",
+        "title": "Mentoría con Bianca Sousa - Bloomberg",
+        "subtitle": "Evento: Mentoría Bloomberg | Cargo Ejecutivo",
+        "descriptionLines": [
+          "Mentoría sobre carrera y nuevas oportunidades."
+        ]
+      },
+      "outros1": {
+        "type": "Otros",
+        "photoUrl": "/Professional/tol.jpg",
+        "title": "Mentoría con Marcelo Toledo - Learn to Fly",
+        "subtitle": "Evento: Learn to Fly | Director en Salesforce",
+        "descriptionLines": [
+          "Mentoría sobre carrera, estrategias de crecimiento profesional y desarrollo personal."
+        ]
       }
     }
   }
