@@ -12,24 +12,32 @@ export const metadata: Metadata = {
   description: "Portfólio e campanha de intercâmbio de Breno Santos",
 };
 
-export default function LocaleLayout({
+// Definindo interfaces explícitas para as props
+interface LocaleLayoutParamsData { // Renomeado para evitar conflito com o tipo Promise
+  locale: string;
+}
+
+interface LocaleLayoutProps {
+  children: React.ReactNode;
+  params: Promise<LocaleLayoutParamsData>; // params é uma Promise
+}
+
+// O componente agora é async
+export default async function LocaleLayout({
   children,
   params
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
-  const locale = params.locale; 
+}: LocaleLayoutProps) {
+  const resolvedParams = await params; // Await para resolver a Promise
+  const locale = resolvedParams.locale; 
   
   return (
-    // Passando o locale para lang, mas sem provider i18n por agora
-    <html lang={locale}>
+    <html lang={locale}> {/* Usar o locale resolvido */}
       <body className={inter.className}>
-        <I18nProviderWrapper locale={locale}>
+        <I18nProviderWrapper locale={locale}> {/* Usar o locale resolvido */}
           <Header />
           <main>{children}</main>
         </I18nProviderWrapper>
       </body>
     </html>
   );
-} 
+}
