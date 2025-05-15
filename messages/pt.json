@@ -163,6 +163,8 @@
     "pixKeyValue": "SUA-CHAVE-PIX-REAL-AQUI",
     "alertPixCopied": "Chave PIX copiada para a área de transferência!",
     "alertPixError": "Não foi possível copiar a chave PIX. Tente manualmente.",
+    "donatePixButtonText": "Doar via Pix",
+    "donatePayPalButtonText": "Doar via PayPal",
     "progressTitle": "Progresso da Arrecadação",
     "progressText": "{{arrecadado}} de {{meta}}",
     "progressPercentageText": "{{percentage}}% da meta alcançado!",
@@ -178,7 +180,10 @@
         "seguro": { "item": "Seguro Viagem Obrigatório (5 meses)" },
         "acomodacao": { "item": "Acomodação e Contas (5 meses)" },
         "alimentacao": { "item": "Alimentação e Custos Básicos (5 meses)" },
-        "taxas": { "item": "Taxas Universitárias e Aplicação de Visto" },
+        "transporte": { "item": "Transporte Local" },
+        "material": { "item": "Material Didático e Cursos" },
+        "despesasPessoais": { "item": "Despesas Pessoais" },
+        "imprevistos": { "item": "Fundo de Emergência e Imprevistos" },
         "total": { "item": "TOTAL ESTIMADO" }
       }
     }

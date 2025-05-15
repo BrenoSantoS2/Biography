@@ -168,6 +168,8 @@
     "pixKeyValue": "YOUR-REAL-PIX-KEY-HERE",
     "alertPixCopied": "PIX Key copied to clipboard!",
     "alertPixError": "Could not copy PIX key. Please try manually.",
+    "donatePixButtonText": "Donate via Pix",
+    "donatePayPalButtonText": "Donate via PayPal",
     "progressTitle": "Fundraising Progress",
     "progressText": "{{arrecadado}} of {{meta}}",
     "progressPercentageText": "{{percentage}}% of goal reached!",
@@ -183,7 +185,10 @@
         "seguro": { "item": "Mandatory Travel Insurance (5 months)" },
         "acomodacao": { "item": "Accommodation and Utilities (5 months)" },
         "alimentacao": { "item": "Food and Basic Living Costs (5 months)" },
-        "taxas": { "item": "University Fees and Visa Application" },
+        "transporte": { "item": "Local Transportation" },
+        "material": { "item": "Course Materials and Courses" },
+        "despesasPessoais": { "item": "Personal Expenses" },
+        "imprevistos": { "item": "Emergency and Contingency Fund" },
         "total": { "item": "ESTIMATED TOTAL" }
       }
     }

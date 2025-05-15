@@ -25,7 +25,6 @@ const firstPhotoCarouselImages = [
   { id: 'sp13', src: '/About/Carrosel/F13.jpg', alt: 'Segunda Foto Pessoal 13' },
   { id: 'sp14', src: '/About/Carrosel/F14.jpg', alt: 'Segunda Foto Pessoal 14' },
   { id: 'sp15', src: '/About/Carrosel/F15.jpg', alt: 'Segunda Foto Pessoal 15' },
-  { id: 'sp16', src: '/About/Carrosel/F16.jpg', alt: 'Segunda Foto Pessoal 16' },
   { id: 'sp17', src: '/About/Carrosel/F17.jpg', alt: 'Segunda Foto Pessoal 17' },
 ];
 

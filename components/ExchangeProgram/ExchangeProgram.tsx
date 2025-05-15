@@ -12,32 +12,24 @@ interface CostItemData {
 }
 
 const costTableItemIds: CostItemData[] = [
-  { id: "passagem", costBRL: "R$ 7.000", costEUR: "€ 1.300" },
-  { id: "seguro", costBRL: "R$ 1.500", costEUR: "€ 280" },
-  { id: "acomodacao", costBRL: "R$ 15.000", costEUR: "€ 2.800" },
-  { id: "alimentacao", costBRL: "R$ 8.000", costEUR: "€ 1.500" },
-  { id: "taxas", costBRL: "R$ 2.500", costEUR: "€ 470" },
-  { id: "total", costBRL: "R$ 34.000", costEUR: "€ 6.350" },
+  { id: "passagem", costBRL: "R$ 9.000", costEUR: "€ 1.500" },
+  { id: "seguro", costBRL: "R$ 2.100", costEUR: "€ 350" }, 
+  { id: "acomodacao", costBRL: "R$ 18.000", costEUR: "€ 3.000" },
+  { id: "alimentacao", costBRL: "R$ 12.000", costEUR: "€ 2.000" },
+  { id: "transporte", costBRL: "R$ 2.400", costEUR: "€ 400" },
+  { id: "material", costBRL: "R$ 3.000", costEUR: "€ 300" },
+  { id: "despesasPessoais", costBRL: "R$ 9.000", costEUR: "€ 1500" },
+  { id: "imprevistos", costBRL: "R$ 3.000", costEUR: "€ 500" }, 
+  { id: "total", costBRL: "R$ 58.500", costEUR: "€ 9.550" }, 
 ];
 
 // Placeholder para dados de arrecadação
-const arrecadado = 12500; // Exemplo: R$ 12.500
-const meta = 34000; // Exemplo: R$ 34.000
+const arrecadado = 0;
+const meta = 58500;
 const progresso = (arrecadado / meta) * 100;
 
 const ExchangeProgram = () => {
   const { t } = useTranslation();
-
-  const handleCopyPix = () => {
-    const pixKeyValue = t("ExchangeProgram.pixKeyValue"); // Pega a chave pix do arquivo de tradução
-    navigator.clipboard
-      .writeText(pixKeyValue)
-      .then(() => alert(t("ExchangeProgram.alertPixCopied")))
-      .catch((err) => {
-        console.error("Erro ao copiar Pix: ", err);
-        alert(t("ExchangeProgram.alertPixError"));
-      });
-  };
 
   return (
     <section id="intercambio" className={styles.exchangeSection}>
@@ -78,9 +70,24 @@ const ExchangeProgram = () => {
               <h3 className={styles.pixTitle}>
                 {t("ExchangeProgram.pixTitle")}
               </h3>
-              <button onClick={handleCopyPix} className={styles.pixButton}>
-                {t("ExchangeProgram.pixButtonText")}
-              </button>
+              {/* Botão para doação via Pix */}
+              <a
+                href="https://cofrinhos.picpay.com/Ynl5ulJlbm8uc2FudG9zMTIwOC8xMC9kb2FvaW50ZXJjbWJpby9ERUZBVUxU"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.pixButton} // Pode reutilizar ou criar um novo estilo
+              >
+                {t("ExchangeProgram.donatePixButtonText")} 
+              </a>
+              {/* Botão para doação via PayPal */}
+              <a
+                href="https://www.paypal.com/donate/?hosted_button_id=R4928X6KMW6NQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.payPalButton} // Crie um estilo específico para este botão se necessário
+              >
+                {t("ExchangeProgram.donatePayPalButtonText")}
+              </a>
             </div>
             <div className={styles.progressSection}>
               <h3 className={styles.progressTitle}>
