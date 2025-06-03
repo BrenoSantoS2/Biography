@@ -174,6 +174,10 @@
     "progressText": "{{arrecadado}} de {{meta}}",
     "progressPercentageText": "¡{{percentage}}% del objetivo alcanzado!",
     "costsTableTitle": "Desglose de Costos Estimados para el Intercambio",
+    "progressInfo":"Los valores de la barra se actualizan todos los días a las 23:00",
+    "exchangeInfo":"Acerca del Intercambio",
+    "exchangeInfoText":"Quiero compartir con ustedes un logro muy importante en mi vida: fui seleccionado a través de un proceso altamente competitivo y, gracias a eso, he recibido la oportunidad de realizar un intercambio académico en la Universidad Thomas More, una institución de gran prestigio en Bélgica. Esta es una oportunidad única para profundizar mis conocimientos en tecnología, además de estudiar temas fundamentales sobre mercados, negocios y liderazgo, con el objetivo de prepararme cada vez más para cumplir mi mayor sueño: convertirme en un emprendedor y generar un impacto positivo en la sociedad.\n\nAfortunadamente, obtuve una beca que cubre las matrículas de la universidad de destino, lo cual es un gran alivio. Sin embargo, aún necesito cubrir otros gastos importantes como alojamiento, alimentación y transporte, que representan desafíos financieros significativos. Por eso, estoy lanzando esta campaña de recaudación, buscando el apoyo de quienes creen en el poder transformador de la educación y en la importancia de invertir en sueños como el mío.\n\nMás que un simple viaje, este intercambio representa una verdadera oportunidad para transformar mi futuro, obtener una formación internacional y adquirir experiencias valiosas que me acompañarán toda la vida. ¡Con tu ayuda, este sueño puede hacerse realidad! ¡Muchísimas gracias desde ya por tu apoyo y por creer en mi potencial!",
+    "exchangeLetter":"Carta de aceptación",
     "costsTable": {
       "header": {
         "item": "Concepto",

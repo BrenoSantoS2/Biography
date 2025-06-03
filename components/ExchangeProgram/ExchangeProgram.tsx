@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "./ExchangeProgram.module.css";
 import { useTranslation } from "react-i18next";
+import React from "react";
 
 interface CostItemData {
   id: string;
@@ -13,18 +14,18 @@ interface CostItemData {
 
 const costTableItemIds: CostItemData[] = [
   { id: "passagem", costBRL: "R$ 9.000", costEUR: "€ 1.500" },
-  { id: "seguro", costBRL: "R$ 2.100", costEUR: "€ 350" }, 
+  { id: "seguro", costBRL: "R$ 2.100", costEUR: "€ 350" },
   { id: "acomodacao", costBRL: "R$ 18.000", costEUR: "€ 3.000" },
   { id: "alimentacao", costBRL: "R$ 12.000", costEUR: "€ 2.000" },
   { id: "transporte", costBRL: "R$ 2.400", costEUR: "€ 400" },
   { id: "material", costBRL: "R$ 3.000", costEUR: "€ 300" },
   { id: "despesasPessoais", costBRL: "R$ 9.000", costEUR: "€ 1500" },
-  { id: "imprevistos", costBRL: "R$ 3.000", costEUR: "€ 500" }, 
-  { id: "total", costBRL: "R$ 58.500", costEUR: "€ 9.550" }, 
+  { id: "imprevistos", costBRL: "R$ 3.000", costEUR: "€ 500" },
+  { id: "total", costBRL: "R$ 58.500", costEUR: "€ 9.550" },
 ];
 
 // Placeholder para dados de arrecadação
-const arrecadado = 0;
+const arrecadado = 1125;
 const meta = 58500;
 const progresso = (arrecadado / meta) * 100;
 
@@ -77,7 +78,7 @@ const ExchangeProgram = () => {
                 rel="noopener noreferrer"
                 className={styles.pixButton} // Pode reutilizar ou criar um novo estilo
               >
-                {t("ExchangeProgram.donatePixButtonText")} 
+                {t("ExchangeProgram.donatePixButtonText")}
               </a>
               {/* Botão para doação via PayPal */}
               <a
@@ -93,6 +94,10 @@ const ExchangeProgram = () => {
               <h3 className={styles.progressTitle}>
                 {t("ExchangeProgram.progressTitle")}
               </h3>
+              <p className={styles.progressInfo}>
+                {" "}
+                {t("ExchangeProgram.progressInfo")}
+              </p>
               <div className={styles.progressBarContainer}>
                 <div
                   className={styles.progressBar}
@@ -108,10 +113,33 @@ const ExchangeProgram = () => {
                 {t("ExchangeProgram.progressPercentageText", {
                   percentage: progresso.toFixed(1),
                 })}
+                <br />
+                <br />
+                <strong>{arrecadado}R$ / {meta}R$</strong>
               </p>
             </div>
           </div>
-
+          <div>
+            <h3 className={styles.tableTitle}>
+              {t("ExchangeProgram.exchangeInfo")}
+            </h3>
+            <p className={styles.topicText}>
+              {t(`ExchangeProgram.exchangeInfoText`)
+                .split("\n")
+                .map((line, index) => (
+                  <React.Fragment key={index}>
+                    {line}
+                    <br />
+                  </React.Fragment>
+                ))}
+            </p>
+            <h3 className={styles.tableTitle}>
+              {t("ExchangeProgram.exchangeLetter")}
+            </h3>
+            <div className={styles.imageContainer}>
+              <img className={styles.image} src={"Exchange/Frame 32.png"} />
+            </div>
+          </div>
           <div className={styles.costsTableContainer}>
             <h3 className={styles.tableTitle}>
               {t("ExchangeProgram.costsTableTitle")}

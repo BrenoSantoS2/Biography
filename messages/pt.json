@@ -169,6 +169,10 @@
     "progressText": "{{arrecadado}} de {{meta}}",
     "progressPercentageText": "{{percentage}}% da meta alcançado!",
     "costsTableTitle": "Detalhamento dos Custos Estimados para o Intercâmbio",
+    "progressInfo":"Os valores da barra são atualizados todos os dias as 23:00",
+    "exchangeInfo":"Sobre o Intercâmbio",
+    "exchangeInfoText":"Quero compartilhar com vocês uma conquista muito importante na minha vida: fui aprovado em um processo seletivo bastante rigoroso e, graças a isso, recebi a oportunidade de realizar um intercâmbio acadêmico na Thomas More University, uma universidade de grande renome na Bélgica. Essa é uma chance única de aprofundar meus conhecimentos na área de tecnologia, além de estudar temas fundamentais sobre mercado, negócios e liderança, com o objetivo de me preparar cada vez mais para realizar meu maior sonho: me tornar um empreendedor e impactar positivamente a sociedade.\n\n Felizmente, consegui uma bolsa de estudos que cobre as mensalidades da universidade de destino, o que representa um grande alívio. No entanto, ainda preciso arcar com outros custos importantes, como moradia, alimentação e transporte — e esses são desafios financeiros significativos. Por isso, estou iniciando essa campanha de arrecadação, buscando o apoio de quem acredita no poder transformador da educação e na importância de investir em sonhos como o meu. \n\n Mais do que uma simples viagem, esse intercâmbio representa uma oportunidade real de transformar meu futuro, me qualificar internacionalmente e adquirir experiências valiosas que levarei para toda a vida. Com a sua ajuda, esse sonho pode se tornar realidade! Muito obrigado desde já pelo seu apoio e por acreditar no meu potencial!",
+    "exchangeLetter":"Carta de Aceite",
     "costsTable": {
       "header": {
         "item": "Item",

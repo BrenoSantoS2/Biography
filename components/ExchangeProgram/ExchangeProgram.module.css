@@ -179,8 +179,17 @@
 }
 
 .progressValues {
+  text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 16px; /* Reduzido */
+  color: #333;
+  margin-top: 6px; /* Reduzido */
+}
+
+.progressInfo{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px; /* Reduzido */
   color: #333;
   margin-top: 6px; /* Reduzido */
 }
@@ -237,6 +246,28 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.topicText {
+  font-family: 'Inter', sans-serif; /* Conforme Figma: style_XG3VFR */
+  font-weight: 600; /* No Figma está 600, mas visualmente parece mais leve. Ajustar se necessário. */
+  font-size: 18px; /* Reduzido */
+  line-height: 1.21;
+  color: #535353; /* Conforme Figma: fill_E36S6M */
+  margin: 0;
+  padding: 0rem 4rem 4rem 4rem;
+}
+.image{
+  display: flex;
+  width: 80%;
+  padding: 6rem;
+
+}
+.imageContainer{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
 /* Media Queries */
 @media (max-width: 992px) {
   .fundraisingContainer {
@@ -262,6 +293,16 @@
   .costsTable {
     width: calc(100% - 64px);
   }
+  .topicText {
+    font-size: 16px; /* Reduzido */
+    padding: 0rem 2rem 2rem 2rem;
+    text-align: center;
+  }
+  .image{
+  width: 90%;
+  padding: 1rem;
+
+}
 }
 
 @media (max-width: 768px) {
@@ -298,6 +339,10 @@
     padding: 8px;
     font-size: 13px;
   }
+  .topicText {
+    font-size: 15px; /* Mantido, mas pode ser ajustado se necessário */
+    padding: 0rem 1rem 1rem 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -321,4 +366,9 @@
     font-size: 12px;
     padding: 6px;
   }
+  .image{
+  width: 120%;
+  padding: 1rem;
+
+}
 } 
