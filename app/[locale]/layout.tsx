@@ -10,7 +10,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Minha Trajetória - Breno Santos",
   description: "Portfólio e campanha de intercâmbio de Breno Santos",
+  icons: {
+    icon: "/favicon.png",  // ou outro formato, se quiser
+    shortcut: "/favicon.png",
+    apple: "/apple-touch-icon.png", // opcional, se tiver
+  },
 };
+
 
 // Definindo interfaces explícitas para as props
 interface LocaleLayoutParamsData { // Renomeado para evitar conflito com o tipo Promise
@@ -41,3 +47,4 @@ export default async function LocaleLayout({
     </html>
   );
 }
+
