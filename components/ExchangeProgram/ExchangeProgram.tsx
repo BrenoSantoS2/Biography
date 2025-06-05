@@ -25,7 +25,7 @@ const costTableItemIds: CostItemData[] = [
 ];
 
 // Placeholder para dados de arrecadação
-const arrecadado = 3150;
+const arrecadado = 3288;
 const meta = 58500;
 const progresso = (arrecadado / meta) * 100;
 
